@@ -1,0 +1,21 @@
+Name: T Shirt
+
+Abbreviation: shirt
+
+Category: ED
+
+Series Number: 00012
+
+Path: ED/shirt
+
+Description: <p>This dataset contains complete rank orderings of T-Shirt designs voted on by members of the <a href="http://http://nicta.com.au/research/optimisation">Optimization Research Group</a> at <a href="http://www.nicta.com.au/">NICTA</a>.  There are 11 designs (candidates) and 30 votes about these deisgns.  Voters were required to submit complete strict orders.</p> <p> This data has been kindly donated by <a href="http://www.coffr.in/">Carleton Coffrin</a>.</p>
+
+Required Citations: 
+
+Selected Studies: 
+
+description, status, file_name
+T-Shirt Design, induced, ED-00012-00000001.mjg
+T-Shirt Design, induced, ED-00012-00000001.pwg
+T-Shirt Design, original, ED-00012-00000001.soc
+T-Shirt Design, induced, ED-00012-00000001.wmg
