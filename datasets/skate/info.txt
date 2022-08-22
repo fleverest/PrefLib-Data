@@ -16,7 +16,7 @@ Required Citations:
 
 Selected Studies: RangeVoting.com Analysis of the Skate Data; Warren D. Smith; Available at RangeVoting.com <a href="http://rangevoting.org/Skating1998.html">(Link)</a>; 2000 | OBO: A Detailed Analysis; Sandra J. Loosemore; Personal Website and Manuscript <a href="http://www.frogsonice.com/skateweb/obo/obo-analysis.shtml">(Link)</a>; 1998
 
-patch_name, description, series number, publication date, representative
+patch_name, description, series_number, publication_date, representative
 ED-00006-00000001, Euros Men Short Program, 00000001, 2022-08-19, ED-00006-00000001.toc
 ED-00006-00000002, Euros Men Free Skate, 00000002, 2022-08-19, ED-00006-00000002.toc
 ED-00006-00000003, Euros Pairs Short Program, 00000003, 2022-08-19, ED-00006-00000003.soc
@@ -66,7 +66,7 @@ ED-00006-00000046, Worldch Dance Compulsory Dance#2, 00000046, 2022-08-19, ED-00
 ED-00006-00000047, Worldch Dance Original Dance, 00000047, 2022-08-19, ED-00006-00000047.toc
 ED-00006-00000048, Worldch Dance Free Dance, 00000048, 2022-08-19, ED-00006-00000048.soc
 
-patch_number, file_name, modification type, publication date
+patch_number, file_name, modification_type, publication_date
 00000001, ED-00006-00000001.mjg, induced, 2021-06-22
 00000001, ED-00006-00000001.pwg, induced, 2021-06-22
 00000001, ED-00006-00000001.toc, original, 2022-08-19

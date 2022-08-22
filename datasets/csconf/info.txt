@@ -16,12 +16,12 @@ Required Citations:
 
 Selected Studies: 
 
-patch_name, description, series number, publication date, representative
+patch_name, description, series_number, publication_date, representative
 MD-00002-00000001, AI Conference 1, 00000001, 2022-08-19, MD-00002-00000001.toi
 MD-00002-00000002, AI Conference 2, 00000002, 2022-08-19, MD-00002-00000002.toi
 MD-00002-00000003, AI Conference 3, 00000003, 2022-08-19, MD-00002-00000003.toi
 
-patch_number, file_name, modification type, publication date
+patch_number, file_name, modification_type, publication_date
 00000001, MD-00002-00000001.toi, original, 2022-08-19
 00000002, MD-00002-00000002.toi, original, 2022-08-19
 00000003, MD-00002-00000003.toi, original, 2022-08-19

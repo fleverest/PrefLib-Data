@@ -16,7 +16,7 @@ Required Citations:
 
 Selected Studies: Theoretical and empirical evaluation of data reduction for exact Kemeny Rank Aggregation; N. Betzler,  R. Bredereck and R. Niedermeier; Autonomous Agents and Multi-Agent Systems, 28(5):721-748; 2014 | Fixed-Parameter Algorithms for Computing Kemeny scores - Theory and Practice; R Bredereck; Thesis, Department of Mathematics and Computer Science, University of Jena; 2009 | Partial Kernelization for Rank Aggregation: Theory and Experiments; N. Betzler, R. Bredereck, and R. Niedermeier; Proc. 5th International Symposium on Parameterized and Exact Computation (IPEC '10); 2010
 
-patch_name, description, series number, publication date, representative
+patch_name, description, series_number, publication_date, representative
 ED-00011-00000001, webimpact_capitals5, 00000001, 2022-08-19, ED-00011-00000001.soc
 ED-00011-00000002, webimpact_nations5, 00000002, 2022-08-19, ED-00011-00000002.soc
 ED-00011-00000003, webimpact_richest5, 00000003, 2022-08-19, ED-00011-00000003.soc
@@ -95,7 +95,7 @@ ED-00011-00000075, websearch_small_vintage+cars, 00000075, 2022-08-19, ED-00011-
 ED-00011-00000076, websearch_small_volcano, 00000076, 2022-08-19, ED-00011-00000076.soi
 ED-00011-00000077, websearch_small_zen+budism, 00000077, 2022-08-19, ED-00011-00000077.soi
 
-patch_number, file_name, modification type, publication date
+patch_number, file_name, modification_type, publication_date
 00000001, ED-00011-00000001.pwg, induced, 2021-06-22
 00000001, ED-00011-00000001.soc, original, 2022-08-19
 00000001, ED-00011-00000001.tog, induced, 2021-06-22

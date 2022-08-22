@@ -16,7 +16,7 @@ Required Citations:
 
 Selected Studies: Fixed-Parameter Algorithms for Computing Kemeny scores - Theory and Practice;  R Bredereck; Thesis, Department of Mathematics and Computer Science, University of Jena; 2009 | Partial Kernelization for Rank Aggregation: Theory and Experiments; N. Betzler, R. Bredereck, and R. Niedermeier; Proc. 5th International Symposium on Parameterized and Exact Computation (IPEC); 2010
 
-patch_name, description, series number, publication date, representative
+patch_name, description, series_number, publication_date, representative
 ED-00010-00000001, 1961 F1, 00000001, 2022-08-19, ED-00010-00000001.soi
 ED-00010-00000002, 1962 F1, 00000002, 2022-08-19, ED-00010-00000002.soi
 ED-00010-00000003, 1963 F1, 00000003, 2022-08-19, ED-00010-00000003.soi
@@ -68,7 +68,7 @@ ED-00010-00000048, 2008 F1, 00000048, 2022-08-19, ED-00010-00000048.soi
 ED-00010-00000049, CrossCountry Skiing, 00000049, 2022-08-19, ED-00010-00000049.soi
 ED-00010-00000050, Ski Jumping, 00000050, 2022-08-19, ED-00010-00000050.soi
 
-patch_number, file_name, modification type, publication date
+patch_number, file_name, modification_type, publication_date
 00000001, ED-00010-00000001.mjg, induced, 2021-06-22
 00000001, ED-00010-00000001.pwg, induced, 2021-06-22
 00000001, ED-00010-00000001.soi, original, 2022-08-19

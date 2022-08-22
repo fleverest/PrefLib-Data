@@ -16,7 +16,7 @@ Required Citations:
 
 Selected Studies: Modeling the outcomes of vote-casting in actual elections; N. Tideman and F. Plassmann; In: Dan Felsenthal and Mose Machover (eds.) Electoral sytems: Paradoxes, assumptions, and procedures. Springer, 217 - 251; 2012 | Which Voting Rule is Most Likely to Choose the Best Option?; N. Tideman and F. Plassmann; Public Choice; 2013 | How frequently do different voting rules encounter voting paradoxes in three-candidate elections?; N. Tideman and F. Plassmann; Social Choice and Welfare; 2013
 
-patch_name, description, series number, publication date, representative
+patch_name, description, series_number, publication_date, representative
 ED-00007-00000001, ERS Set 1, 00000001, 2022-08-19, ED-00007-00000001.soi
 ED-00007-00000002, ERS Set 2, 00000002, 2022-08-19, ED-00007-00000002.soi
 ED-00007-00000003, ERS Set 3, 00000003, 2022-08-19, ED-00007-00000003.soi
@@ -105,7 +105,7 @@ ED-00007-00000085, ERS Set 85, 00000085, 2022-08-19, ED-00007-00000085.soi
 ED-00007-00000086, ERS Set 86, 00000086, 2022-08-19, ED-00007-00000086.soi
 ED-00007-00000087, ERS Set 87, 00000087, 2022-08-19, ED-00007-00000087.soi
 
-patch_number, file_name, modification type, publication date
+patch_number, file_name, modification_type, publication_date
 00000001, ED-00007-00000001.pwg, induced, 2021-06-22
 00000001, ED-00007-00000001.soi, original, 2022-08-19
 00000001, ED-00007-00000001.toc, imbued, 2021-06-22

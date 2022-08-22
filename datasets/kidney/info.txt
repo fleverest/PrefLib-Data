@@ -16,7 +16,7 @@ Required Citations: Optimizing Kidney Exchange with Transplant Chains: Theory an
 
 Selected Studies: Failure-Aware Kidney Exchange; John P. Dickerson, Ariel D. Procaccia, Tuomas Sandholm; Proceedings of EC; 2013 | Dynamic Matching via Weighted Myopia with Application to Kidney Exchange; John P. Dickerson, Ariel D. Procaccia, Tuomas Sandholm; Proceedings of AAAI; 2012 | Price of Fairness in Kidney Exchange; John P. Dickerson, Ariel D. Procaccia, Tuomas Sandholm; Proceedings of AAMAS; 2014
 
-patch_name, description, series number, publication date, representative
+patch_name, description, series_number, publication_date, representative
 MD-00001-00000001, Kidney Matching - 16 with 0, 00000001, 2022-08-19, MD-00001-00000001.wmd
 MD-00001-00000002, Kidney Matching - 16 with 0, 00000002, 2022-08-19, MD-00001-00000002.wmd
 MD-00001-00000003, Kidney Matching - 16 with 0, 00000003, 2022-08-19, MD-00001-00000003.wmd
@@ -328,7 +328,7 @@ MD-00001-00000308, Kidney Matching - 2048 with 307, 00000308, 2022-08-19, MD-000
 MD-00001-00000309, Kidney Matching - 2048 with 307, 00000309, 2022-08-19, MD-00001-00000309.wmd
 MD-00001-00000310, Kidney Matching - 2048 with 307, 00000310, 2022-08-19, MD-00001-00000310.wmd
 
-patch_number, file_name, modification type, publication date
+patch_number, file_name, modification_type, publication_date
 00000001, MD-00001-00000001.dat, synthetic, 2021-06-25
 00000001, MD-00001-00000001.wmd, synthetic, 2021-06-25
 00000002, MD-00001-00000002.dat, synthetic, 2021-06-25

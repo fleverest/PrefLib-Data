@@ -16,10 +16,10 @@ Required Citations:
 
 Selected Studies: 
 
-patch_name, description, series number, publication date, representative
+patch_name, description, series_number, publication_date, representative
 MD-00004-00000001, AAMAS 2015, 00000001, 2022-08-19, MD-00004-00000001.toi
 MD-00004-00000002, AAMAS 2016, 00000002, 2022-08-19, MD-00004-00000002.toi
 
-patch_number, file_name, modification type, publication date
+patch_number, file_name, modification_type, publication_date
 00000001, MD-00004-00000001.toi, original, 2022-08-19
 00000002, MD-00004-00000002.toi, original, 2022-08-19

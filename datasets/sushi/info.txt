@@ -16,12 +16,12 @@ Required Citations:
 
 Selected Studies: Nantonac Collaborative Filtering: Recommendation Based on Order Responses; T. Kamishima; Proceedings of the 9th International Conference on Knowledge Discovery and Data Mining (KDD); 2003 | A Survey and Empirical Comparison of Object Ranking Methods; T. Kamishima, H. Kazawa, and S. Akaho; In J. Furnkranz and E. Hullermeier, editors, Preference Learning; 2010
 
-patch_name, description, series number, publication date, representative
+patch_name, description, series_number, publication_date, representative
 ED-00014-00000001, Sushi 10 Rank, 00000001, 2022-08-19, ED-00014-00000001.soc
 ED-00014-00000002, Sushi 100 Rank, 00000002, 2022-08-19, ED-00014-00000002.soi
 ED-00014-00000003, Sushi 100 Score, 00000003, 2022-08-19, ED-00014-00000003.toi
 
-patch_number, file_name, modification type, publication date
+patch_number, file_name, modification_type, publication_date
 00000001, ED-00014-00000001.pwg, induced, 2021-06-22
 00000001, ED-00014-00000001.soc, original, 2022-08-19
 00000001, ED-00014-00000001.tog, induced, 2021-06-22

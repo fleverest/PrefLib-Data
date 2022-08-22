@@ -16,10 +16,10 @@ Required Citations: Optimizing positional scoring rules for rank aggregation; Io
 
 Selected Studies: 
 
-patch_name, description, series number, publication date, representative
+patch_name, description, series_number, publication_date, representative
 ED-00034-00000001, Cost of Living, 00000001, 2022-08-19, ED-00034-00000001.soi
 ED-00034-00000002, Population, 00000002, 2022-08-19, ED-00034-00000002.soi
 
-patch_number, file_name, modification type, publication date
+patch_number, file_name, modification_type, publication_date
 00000001, ED-00034-00000001.soi, original, 2022-08-19
 00000002, ED-00034-00000002.soi, original, 2022-08-19

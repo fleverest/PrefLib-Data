@@ -16,7 +16,7 @@ Required Citations:
 
 Selected Studies: 
 
-patch_name, description, series number, publication date, representative
+patch_name, description, series_number, publication_date, representative
 ED-00002-00000001, Debian 2002 Leader, 00000001, 2022-08-19, ED-00002-00000001.soi
 ED-00002-00000002, Debian 2003 Leader, 00000002, 2022-08-19, ED-00002-00000002.soi
 ED-00002-00000003, Debian 2005 Leader, 00000003, 2022-08-19, ED-00002-00000003.soi
@@ -26,7 +26,7 @@ ED-00002-00000006, Debian 2010 Leader, 00000006, 2022-08-19, ED-00002-00000006.s
 ED-00002-00000007, Debian 2012 Leader, 00000007, 2022-08-19, ED-00002-00000007.soi
 ED-00002-00000008, Debian Logo, 00000008, 2022-08-19, ED-00002-00000008.soi
 
-patch_number, file_name, modification type, publication date
+patch_number, file_name, modification_type, publication_date
 00000001, ED-00002-00000001.pwg, induced, 2021-06-22
 00000001, ED-00002-00000001.soi, original, 2022-08-19
 00000001, ED-00002-00000001.toc, imbued, 2021-06-22
