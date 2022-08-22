@@ -1,0 +1,105 @@
+Name: San Francisco Election Data
+
+Abbreviation: sf
+
+Category: ED
+
+Tags: Election
+
+Series Number: 00021
+
+Publication Date: 2021-06-22
+
+Description: <p>The San Francsico data contains the results from several elections, including board of supervisors, district attorny, and mayoral elections, held in San Francisco, CA between 2008 and 2012. The set contains 14 distinct elections with between 4 and 25 canddiates and 18,000 and 195,000 voters.</p> <p>Note that these elections were conducted under a ranked voting system which allowed blank entries. In processing this data for PrefLib we have ignored blanks and only report the order over the candidates.</p><p> The data on this page was donated by Jeffrey O'Neill who runs the site <a href="http://www.openstv.org">OpenSTV.org</a>.</p>
+
+Required Citations: Open STV; Jeffery O'Neill; <a href="http://www.openstv.org">www.OpenSTV.org</a>; 2013
+
+Selected Studies: 
+
+patch_name, description, series number, publication date, representative
+ED-00021-00000001, 2008 San Francisco Board of Supervisors - District 1, 00000001, 2022-08-19, ED-00021-00000001.toi
+ED-00021-00000002, 2008 San Francisco Board of Supervisors - District 11, 00000002, 2022-08-19, ED-00021-00000002.toi
+ED-00021-00000003, 2008 San Francisco - Board of Supervisors District 3, 00000003, 2022-08-19, ED-00021-00000003.toi
+ED-00021-00000004, 2008 San Francisco Board of Supervisors - District 4, 00000004, 2022-08-19, ED-00021-00000004.toi
+ED-00021-00000005, 2008 San Francisco Board of Supervisors - District 9, 00000005, 2022-08-19, ED-00021-00000005.toi
+ED-00021-00000006, 2010 San Francisco Board of Supervisors - District 10, 00000006, 2022-08-19, ED-00021-00000006.toi
+ED-00021-00000007, 2010 San Francisco Board of Supervisors - District 2, 00000007, 2022-08-19, ED-00021-00000007.toi
+ED-00021-00000008, 2010 San Francisco Board of Supervisors - District 6, 00000008, 2022-08-19, ED-00021-00000008.toi
+ED-00021-00000009, 2010 San Francisco Board of Supervisors - District 8, 00000009, 2022-08-19, ED-00021-00000009.toi
+ED-00021-00000010, 2011 San Francisco District Attorney, 00000010, 2022-08-19, ED-00021-00000010.toi
+ED-00021-00000011, 2011 San Francisco Mayor, 00000011, 2022-08-19, ED-00021-00000011.toi
+ED-00021-00000012, 2011 San Francisco Sheriff, 00000012, 2022-08-19, ED-00021-00000012.toi
+ED-00021-00000013, 2012 San Francisco Board of Supervisors - District 5, 00000013, 2022-08-19, ED-00021-00000013.toi
+ED-00021-00000014, San Francisco Board of Supervisors - District 7, 00000014, 2022-08-19, ED-00021-00000014.toi
+
+patch_number, file_name, modification type, publication date
+00000001, ED-00021-00000001.mjg, induced, 2021-06-22
+00000001, ED-00021-00000001.pwg, induced, 2021-06-22
+00000001, ED-00021-00000001.toc, imbued, 2021-06-22
+00000001, ED-00021-00000001.toi, original, 2022-08-19
+00000001, ED-00021-00000001.wmg, induced, 2021-06-22
+00000002, ED-00021-00000002.mjg, induced, 2021-06-22
+00000002, ED-00021-00000002.pwg, induced, 2021-06-22
+00000002, ED-00021-00000002.toc, imbued, 2021-06-22
+00000002, ED-00021-00000002.toi, original, 2022-08-19
+00000002, ED-00021-00000002.wmg, induced, 2021-06-22
+00000003, ED-00021-00000003.mjg, induced, 2021-06-22
+00000003, ED-00021-00000003.pwg, induced, 2021-06-22
+00000003, ED-00021-00000003.toc, imbued, 2021-06-22
+00000003, ED-00021-00000003.toi, original, 2022-08-19
+00000003, ED-00021-00000003.wmg, induced, 2021-06-22
+00000004, ED-00021-00000004.pwg, induced, 2021-06-22
+00000004, ED-00021-00000004.toc, imbued, 2021-06-22
+00000004, ED-00021-00000004.tog, induced, 2021-06-22
+00000004, ED-00021-00000004.toi, original, 2022-08-19
+00000004, ED-00021-00000004.wmg, induced, 2021-06-22
+00000005, ED-00021-00000005.mjg, induced, 2021-06-22
+00000005, ED-00021-00000005.pwg, induced, 2021-06-22
+00000005, ED-00021-00000005.toc, imbued, 2021-06-22
+00000005, ED-00021-00000005.toi, original, 2022-08-19
+00000005, ED-00021-00000005.wmg, induced, 2021-06-22
+00000006, ED-00021-00000006.mjg, induced, 2021-06-22
+00000006, ED-00021-00000006.pwg, induced, 2021-06-22
+00000006, ED-00021-00000006.toc, imbued, 2021-06-22
+00000006, ED-00021-00000006.toi, original, 2022-08-19
+00000006, ED-00021-00000006.wmg, induced, 2021-06-22
+00000007, ED-00021-00000007.mjg, induced, 2021-06-22
+00000007, ED-00021-00000007.pwg, induced, 2021-06-22
+00000007, ED-00021-00000007.toc, imbued, 2021-06-22
+00000007, ED-00021-00000007.toi, original, 2022-08-19
+00000007, ED-00021-00000007.wmg, induced, 2021-06-22
+00000008, ED-00021-00000008.mjg, induced, 2021-06-22
+00000008, ED-00021-00000008.pwg, induced, 2021-06-22
+00000008, ED-00021-00000008.toc, imbued, 2021-06-22
+00000008, ED-00021-00000008.toi, original, 2022-08-19
+00000008, ED-00021-00000008.wmg, induced, 2021-06-22
+00000009, ED-00021-00000009.pwg, induced, 2021-06-22
+00000009, ED-00021-00000009.toc, imbued, 2021-06-22
+00000009, ED-00021-00000009.tog, induced, 2021-06-22
+00000009, ED-00021-00000009.toi, original, 2022-08-19
+00000009, ED-00021-00000009.wmg, induced, 2021-06-22
+00000010, ED-00021-00000010.mjg, induced, 2021-06-22
+00000010, ED-00021-00000010.pwg, induced, 2021-06-22
+00000010, ED-00021-00000010.toc, imbued, 2021-06-22
+00000010, ED-00021-00000010.toi, original, 2022-08-19
+00000010, ED-00021-00000010.wmg, induced, 2021-06-22
+00000011, ED-00021-00000011.mjg, induced, 2021-06-22
+00000011, ED-00021-00000011.pwg, induced, 2021-06-22
+00000011, ED-00021-00000011.toc, imbued, 2021-06-22
+00000011, ED-00021-00000011.toi, original, 2022-08-19
+00000011, ED-00021-00000011.wmg, induced, 2021-06-22
+00000012, ED-00021-00000012.mjg, induced, 2021-06-22
+00000012, ED-00021-00000012.pwg, induced, 2021-06-22
+00000012, ED-00021-00000012.toc, imbued, 2021-06-22
+00000012, ED-00021-00000012.toi, original, 2022-08-19
+00000012, ED-00021-00000012.wmg, induced, 2021-06-22
+00000013, ED-00021-00000013.mjg, induced, 2021-06-22
+00000013, ED-00021-00000013.pwg, induced, 2021-06-22
+00000013, ED-00021-00000013.toc, imbued, 2021-06-22
+00000013, ED-00021-00000013.toi, original, 2022-08-19
+00000013, ED-00021-00000013.wmg, induced, 2021-06-22
+00000014, ED-00021-00000014.mjg, induced, 2021-06-22
+00000014, ED-00021-00000014.pwg, induced, 2021-06-22
+00000014, ED-00021-00000014.toc, imbued, 2021-06-22
+00000014, ED-00021-00000014.toi, original, 2022-08-19
+00000014, ED-00021-00000014.wmg, induced, 2021-06-22

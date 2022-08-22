@@ -1,0 +1,59 @@
+Name: Education Surveys in Informatics (Cujae)
+
+Abbreviation: education
+
+Category: ED
+
+Tags: Election
+
+Series Number: 00032
+
+Publication Date: 2021-06-22
+
+Description: <p>This dataset contains the results of surveying students and professors in the Faculty of Informatics, <a href="http://cujae.edu.cu/">Instituto Superior Politécnico José Antonio Echeverría (Cujae, Havana, Cuba)</a> about their preferences on courses and the most important aspects affecting their performance as students and professionals. Answers include ties and missing elements. These surveys, conducted in 2015, include criteria about different numbers of aspects (6 to 32 candidates) and 13 courses.</p><p>This dataset was donated by <a href="https://www.researchgate.net/profile/Alejandro_Rosete-Suarez">Alejandro Rosete Suárez</a> and <a href="https://www.researchgate.net/profile/Milton_Garcia-Borroto">Milton García Borroto</a> and may be augmented with new surveys in the future.</p>
+
+Required Citations: 
+
+Selected Studies: 
+
+patch_name, description, series number, publication date, representative
+ED-00032-00000001, Professors: Most Important Aspects of Failure, 00000001, 2022-08-19, ED-00032-00000001.soi
+ED-00032-00000002, Students: Most Important Aspects of Failure, 00000002, 2022-08-19, ED-00032-00000002.soc
+ED-00032-00000003, Combined: Most Important Aspects of Failure, 00000003, 2022-08-19, ED-00032-00000003.soi
+ED-00032-00000004, Professors: Most Important Courses, 00000004, 2022-08-19, ED-00032-00000004.toi
+ED-00032-00000005, Professors: Least Important Courses, 00000005, 2022-08-19, ED-00032-00000005.soi
+ED-00032-00000006, Professors: Most Important Qualities for Success, 00000006, 2022-08-19, ED-00032-00000006.toi
+ED-00032-00000007, Professors: Most Important Qualities for Success, 00000007, 2022-08-19, ED-00032-00000007.toi
+
+patch_number, file_name, modification type, publication date
+00000001, ED-00032-00000001.pwg, induced, 2021-06-22
+00000001, ED-00032-00000001.soi, original, 2022-08-19
+00000001, ED-00032-00000001.tog, induced, 2021-06-22
+00000001, ED-00032-00000001.wmg, induced, 2021-06-22
+00000002, ED-00032-00000002.pwg, induced, 2021-06-22
+00000002, ED-00032-00000002.soc, original, 2022-08-19
+00000002, ED-00032-00000002.tog, induced, 2021-06-22
+00000002, ED-00032-00000002.wmg, induced, 2021-06-22
+00000003, ED-00032-00000003.mjg, induced, 2021-06-22
+00000003, ED-00032-00000003.pwg, induced, 2021-06-22
+00000003, ED-00032-00000003.soi, original, 2022-08-19
+00000003, ED-00032-00000003.wmg, induced, 2021-06-22
+00000004, ED-00032-00000004.mjg, induced, 2021-06-22
+00000004, ED-00032-00000004.pwg, induced, 2021-06-22
+00000004, ED-00032-00000004.toc, imbued, 2021-06-22
+00000004, ED-00032-00000004.toi, original, 2022-08-19
+00000004, ED-00032-00000004.wmg, induced, 2021-06-22
+00000005, ED-00032-00000005.mjg, induced, 2021-06-22
+00000005, ED-00032-00000005.pwg, induced, 2021-06-22
+00000005, ED-00032-00000005.soi, original, 2022-08-19
+00000005, ED-00032-00000005.wmg, induced, 2021-06-22
+00000006, ED-00032-00000006.mjg, induced, 2021-06-22
+00000006, ED-00032-00000006.pwg, induced, 2021-06-22
+00000006, ED-00032-00000006.toc, imbued, 2021-06-22
+00000006, ED-00032-00000006.toi, original, 2022-08-19
+00000006, ED-00032-00000006.wmg, induced, 2021-06-22
+00000007, ED-00032-00000007.mjg, induced, 2021-06-22
+00000007, ED-00032-00000007.pwg, induced, 2021-06-22
+00000007, ED-00032-00000007.toc, imbued, 2021-06-22
+00000007, ED-00032-00000007.toi, original, 2022-08-19
+00000007, ED-00032-00000007.wmg, induced, 2021-06-22

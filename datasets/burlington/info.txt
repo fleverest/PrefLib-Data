@@ -1,0 +1,33 @@
+Name: Burlington Election Data
+
+Abbreviation: burlington
+
+Category: ED
+
+Tags: Election
+
+Series Number: 00005
+
+Publication Date: 2021-06-22
+
+Description: <p>The <a href="http://rangevoting.org/Burlington.html">2009 Burlington, Vermont Mayoral Election Data is posted online at www.rangevoting.org.</a>  It contains a number of interesting features when evaluated with the IRV method.  Namely, the majority candidate in the first round does not emerge as the winner of the election.</p><p> The 2006 Burlington, Vermont Mayoral data presented here was donated by Jeffrey O'Neill who runs the site <a href="http://www.openstv.org">OpenSTV.org</a>.</p>
+
+Required Citations: Open STV; Jeffery O'Neill; <a href="http://www.openstv.org">www.OpenSTV.org</a>; 2013
+
+Selected Studies: Burlington Vermont 2009 IRV Mayoral Election Analysis; Anthony Gierzynski, Wes Hamilton, & Warren D. Smith; Available at <a href="http://rangevoting.org/Burlington.html"> www.rangevoting.com </a>; 2009
+
+patch_name, description, series number, publication date, representative
+ED-00005-00000001, 2006 Burlington Mayoral Election, 00000001, 2022-08-19, ED-00005-00000001.toi
+ED-00005-00000002, 2009 Burlington Mayoral Election, 00000002, 2022-08-19, ED-00005-00000002.toi
+
+patch_number, file_name, modification type, publication date
+00000001, ED-00005-00000001.pwg, induced, 2021-06-22
+00000001, ED-00005-00000001.toc, imbued, 2021-06-22
+00000001, ED-00005-00000001.tog, induced, 2021-06-22
+00000001, ED-00005-00000001.toi, original, 2022-08-19
+00000001, ED-00005-00000001.wmg, induced, 2021-06-22
+00000002, ED-00005-00000002.mjg, induced, 2021-06-22
+00000002, ED-00005-00000002.pwg, induced, 2021-06-22
+00000002, ED-00005-00000002.toc, imbued, 2021-06-22
+00000002, ED-00005-00000002.toi, original, 2022-08-19
+00000002, ED-00005-00000002.wmg, induced, 2021-06-22

@@ -1,0 +1,77 @@
+Name: Project Bidding Data
+
+Abbreviation: project
+
+Category: MD
+
+Tags: Matching
+
+Series Number: 00003
+
+Publication Date: 2021-06-25
+
+Description: <p>This dataset contains bids of students over a set of projects for student/project allocations at the School of Computing Science, University of Glasgow.  Each project is supervised by an individual each with a maximum capacity of supervision.  There are 8 years worth of data in this set and with between 31 and 51 students and 56 and 155 projects. This data was kindly donated by <a href="http://www.dcs.gla.ac.uk/~davidm/">David Manlove</a> who collected this data.</p><p>In addition to the strict and incomplete preference profiles of the students we have extended the profiles with all unranked items tied at the end.  We have also posted <b>.dat</b> files containing the supervisor identifiers and capacities.  The format for the .dat files is <i>Supervisor ID, Capacity, Projects</i>; where <i>Projects</i> is a space separated list of the projects supervised by the Supervisor.  Each project has a capacity of 1 while each supervisor has a variable capacity.  In academic sessions 2007-08 and 2008-09 there were no supervisor capacities in force, thus the projects and supervisors are in 1-1 correspondence.</p>
+
+Required Citations: Profile-based optimal matchings in the Student/Project Allocation problem; Augustine Kwanashie, Robert W. Irving, David F. Manlove, Colin T.S. Sng; <a href="http://arxiv.org/abs/1403.0751">ArXiv Preprint 1403.0751</a>, Also appeared at the 2014 Workshop on Combinatorial Algorithms; 2015
+
+Selected Studies: 
+
+patch_name, description, series number, publication date, representative
+MD-00003-00000001, Capacities_Projects_07_08.txt, 00000001, 2022-08-19, MD-00003-00000001.soi
+MD-00003-00000002, Capacities_Projects_08_09.txt, 00000002, 2022-08-19, MD-00003-00000002.soi
+MD-00003-00000003, Projects_09_10.txt, 00000003, 2022-08-19, MD-00003-00000003.soi
+MD-00003-00000004, Capacities_Projects_10_11.txt, 00000004, 2022-08-19, MD-00003-00000004.soi
+MD-00003-00000005, Capacities_Projects_11_12.txt, 00000005, 2022-08-19, MD-00003-00000005.soi
+MD-00003-00000006, Capacities_Projects_12_13.txt, 00000006, 2022-08-19, MD-00003-00000006.soi
+MD-00003-00000007, Capacities_Projects_13_14.txt, 00000007, 2022-08-19, MD-00003-00000007.soi
+MD-00003-00000008, Capacities_Projects_14_15.txt, 00000008, 2022-08-19, MD-00003-00000008.soi
+
+patch_number, file_name, modification type, publication date
+00000001, MD-00003-00000001.dat, original, 2022-08-19
+00000001, MD-00003-00000001.mjg, induced, 2021-06-25
+00000001, MD-00003-00000001.pwg, induced, 2021-06-25
+00000001, MD-00003-00000001.soi, original, 2022-08-19
+00000001, MD-00003-00000001.toc, imbued, 2021-06-25
+00000001, MD-00003-00000001.wmg, induced, 2021-06-25
+00000002, MD-00003-00000002.dat, original, 2022-08-19
+00000002, MD-00003-00000002.mjg, induced, 2021-06-25
+00000002, MD-00003-00000002.pwg, induced, 2021-06-25
+00000002, MD-00003-00000002.soi, original, 2022-08-19
+00000002, MD-00003-00000002.toc, imbued, 2021-06-25
+00000002, MD-00003-00000002.wmg, induced, 2021-06-25
+00000003, MD-00003-00000003.dat, original, 2022-08-19
+00000003, MD-00003-00000003.mjg, induced, 2021-06-25
+00000003, MD-00003-00000003.pwg, induced, 2021-06-25
+00000003, MD-00003-00000003.soi, original, 2022-08-19
+00000003, MD-00003-00000003.toc, imbued, 2021-06-25
+00000003, MD-00003-00000003.wmg, induced, 2021-06-25
+00000004, MD-00003-00000004.dat, original, 2022-08-19
+00000004, MD-00003-00000004.mjg, induced, 2021-06-25
+00000004, MD-00003-00000004.pwg, induced, 2021-06-25
+00000004, MD-00003-00000004.soi, original, 2022-08-19
+00000004, MD-00003-00000004.toc, imbued, 2021-06-25
+00000004, MD-00003-00000004.wmg, induced, 2021-06-25
+00000005, MD-00003-00000005.dat, original, 2022-08-19
+00000005, MD-00003-00000005.mjg, induced, 2021-06-25
+00000005, MD-00003-00000005.pwg, induced, 2021-06-25
+00000005, MD-00003-00000005.soi, original, 2022-08-19
+00000005, MD-00003-00000005.toc, imbued, 2021-06-25
+00000005, MD-00003-00000005.wmg, induced, 2021-06-25
+00000006, MD-00003-00000006.dat, original, 2022-08-19
+00000006, MD-00003-00000006.mjg, induced, 2021-06-25
+00000006, MD-00003-00000006.pwg, induced, 2021-06-25
+00000006, MD-00003-00000006.soi, original, 2022-08-19
+00000006, MD-00003-00000006.toc, imbued, 2021-06-25
+00000006, MD-00003-00000006.wmg, induced, 2021-06-25
+00000007, MD-00003-00000007.dat, original, 2022-08-19
+00000007, MD-00003-00000007.mjg, induced, 2021-06-25
+00000007, MD-00003-00000007.pwg, induced, 2021-06-25
+00000007, MD-00003-00000007.soi, original, 2022-08-19
+00000007, MD-00003-00000007.toc, imbued, 2021-06-25
+00000007, MD-00003-00000007.wmg, induced, 2021-06-25
+00000008, MD-00003-00000008.dat, original, 2022-08-19
+00000008, MD-00003-00000008.mjg, induced, 2021-06-25
+00000008, MD-00003-00000008.pwg, induced, 2021-06-25
+00000008, MD-00003-00000008.soi, original, 2022-08-19
+00000008, MD-00003-00000008.toc, imbued, 2021-06-25
+00000008, MD-00003-00000008.wmg, induced, 2021-06-25

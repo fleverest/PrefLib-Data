@@ -1,0 +1,39 @@
+Name: San Leandro Election Data
+
+Abbreviation: sl
+
+Category: ED
+
+Tags: Election
+
+Series Number: 00022
+
+Publication Date: 2021-06-22
+
+Description: <p>The San Leandro data contains the results from several elections, including mayor and city council elections, held in San Leandro, CA between 2010 and 2012. The set contains 3 distinct elections with between 4 and 7 canddiates and about 25,000 voters each.</p> <p>Note that these elections were conducted under a ranked voting system which allowed blank entries. In processing this data for PrefLib we have ignored blanks and only report the order over the candidates.</p><p> The data on this page was donated by Jeffrey O'Neill who runs the site <a href="http://www.openstv.org">OpenSTV.org</a>.</p>
+
+Required Citations: Open STV; Jeffery O'Neill; <a href="http://www.openstv.org">www.OpenSTV.org</a>; 2013
+
+Selected Studies: 
+
+patch_name, description, series number, publication date, representative
+ED-00022-00000001, 2010 San Leandro Mayor, 00000001, 2022-08-19, ED-00022-00000001.toi
+ED-00022-00000002, 2012 San Leandro City Council - District 2, 00000002, 2022-08-19, ED-00022-00000002.toi
+ED-00022-00000003, 2012 San Leandro City Council - District 4, 00000003, 2022-08-19, ED-00022-00000003.toi
+
+patch_number, file_name, modification type, publication date
+00000001, ED-00022-00000001.mjg, induced, 2021-06-22
+00000001, ED-00022-00000001.pwg, induced, 2021-06-22
+00000001, ED-00022-00000001.toc, imbued, 2021-06-22
+00000001, ED-00022-00000001.toi, original, 2022-08-19
+00000001, ED-00022-00000001.wmg, induced, 2021-06-22
+00000002, ED-00022-00000002.mjg, induced, 2021-06-22
+00000002, ED-00022-00000002.pwg, induced, 2021-06-22
+00000002, ED-00022-00000002.toc, imbued, 2021-06-22
+00000002, ED-00022-00000002.toi, original, 2022-08-19
+00000002, ED-00022-00000002.wmg, induced, 2021-06-22
+00000003, ED-00022-00000003.mjg, induced, 2021-06-22
+00000003, ED-00022-00000003.pwg, induced, 2021-06-22
+00000003, ED-00022-00000003.toc, imbued, 2021-06-22
+00000003, ED-00022-00000003.toi, original, 2022-08-19
+00000003, ED-00022-00000003.wmg, induced, 2021-06-22
