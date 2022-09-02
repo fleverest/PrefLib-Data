@@ -51,33 +51,39 @@ class PreflibInstance(object):
         if len(file_path) > 0:
             self.parse_file(file_path)
 
-    def parse_lines(self, lines):
+    def parse_lines(self, lines, autocorrect=False):
         """ Parses the lines provided as argument. The parser to be used is deducted from the instance's value of
             data_type.
 
             :param lines: A list of string, each string being one line of the ``file'' to parse.
             :type lines: list
+            :param autocorrect: A boolean indicating whether we should try to automatically correct the potential errors
+            in the file. Default is False.
+            :type autocorrect: bool
         """
         # Parsing the file based on the file extension
         if self.data_type in ["soc", "soi", "toc", "toi"]:
-            self.parse_order(lines)
+            self.parse_order(lines, autocorrect=autocorrect)
         elif self.data_type in ["tog", "mjg", "wmg", "pwg"]:
-            self.parse_graph(lines)
+            self.parse_graph(lines, autocorrect=autocorrect)
         elif self.data_type == "wmd":
-            self.parse_graph(lines, is_WMD=True)
+            self.parse_graph(lines, is_WMD=True, autocorrect=autocorrect)
         elif self.data_type in ["dat", "csv"]:
             pass
         else:
-            raise SyntaxError("File extension " + str(self.data_type) + " is unknown to PrefLib instance. " +
-                              "This file cannot be parsed.")
+            raise TypeError("File extension " + str(self.data_type) + " is unknown to PrefLib instance. " +
+                            "This file cannot be parsed.")
 
-    def parse_file(self, filepath):
+    def parse_file(self, filepath, autocorrect=False):
         """ Parses the file whose path is provided as argument and populates the PreflibInstance object accordingly.
             The parser to be used (whether the file describes a graph or an order for instance) is deduced based
             on the file extension.
 
             :param filepath: The path to the file to be parsed.
             :type filepath: str
+            :param autocorrect: A boolean indicating whether we should try to automatically correct the potential errors
+            in the file. Default is False.
+            :type autocorrect: bool
         """
 
         # Populating basic properties of the instance
@@ -87,13 +93,12 @@ class PreflibInstance(object):
 
         # Read the file
         file = open(filepath, "r", encoding="utf-8")
-        res = []
         lines = file.readlines()
         file.close()
 
-        self.parse_lines(lines)
+        self.parse_lines(lines, autocorrect=autocorrect)
 
-    def parse_str(self, string, data_type, file_name = ""):
+    def parse_str(self, string, data_type, file_name="", autocorrect=False):
         """ Parses the string provided as argument and populates the PreflibInstance object accordingly.
             The parser to be used (whether the file describes a graph or an order for instance) is deduced based
             on the file extension passed as argument.
@@ -104,21 +109,27 @@ class PreflibInstance(object):
             :type data_type: str
             :param file_name: The value to store in the file_name member of the instance. Default is the empty string.
             :type file_name: str
+            :param autocorrect: A boolean indicating whether we should try to automatically correct the potential errors
+            in the file. Default is False.
+            :type autocorrect: bool
         """
 
         self.file_path = "parsed_from_string"
         self.file_name = file_name
         self.data_type = data_type
 
-        self.parse_lines(string.splitlines())
+        self.parse_lines(string.splitlines(), autocorrect=autocorrect)
 
-    def parse_url(self, url):
+    def parse_url(self, url, autocorrect=False):
         """ Parses the file located at the provided URL and populates the PreflibInstance object accordingly.
             The parser to be used (whether the file describes a graph or an order for instance) is deduced based
             on the file extension.
 
             :param url: The target URL.
             :type url: str
+            :param autocorrect: A boolean indicating whether we should try to automatically correct the potential errors
+            in the file. Default is False.
+            :type autocorrect: bool
         """
 
         data = urllib.request.urlopen(url)
@@ -129,11 +140,11 @@ class PreflibInstance(object):
         self.file_name = url.split('/')[-1].split('.')[0]
         self.data_type = url.split('.')[-1]
 
-        self.parse_lines(lines)
+        self.parse_lines(lines, autocorrect=autocorrect)
 
     def write(self, filepath):
         """ Writes the instance to the file whose path is provided as argument. If the file path does not contain
-            a file extension, is provided the data type of the instance is used. The function to call (whether 
+            a file extension, the data type of the instance is used. The function to call (whether
             the instance describes a graph or an order for instance) is deduced based on the data type of the 
             instance.
 
@@ -213,6 +224,17 @@ class PreflibInstance(object):
             if not strict and not complete:
                 return "toi"
         return tmp_type
+
+    def recompute_cardinality_param(self):
+        """ Recomputes the basic cardinality parameters based on the order list in the instance. Numbers that are
+            recomputed are the number of voters, the sum of voter count and the number of unique orders.
+        """
+        num_voters = 0
+        for order in self.orders:
+            num_voters += self.order_multiplicity[order]
+        self.num_voters = num_voters
+        self.num_unique_order = len(set(self.orders))
+        self.sum_vote_count = num_voters
 
     def append_order_list(self, orders):
         """ Appends a vote map to the instance. That function incorporates the new orders into the instance and
@@ -338,17 +360,27 @@ class PreflibInstance(object):
         """
         self.append_vote_map(generate_mallows_mix(num_voters, list(range(num_alternatives)), num_references))
 
-    def parse_order(self, lines):
+    def parse_order(self, lines, autocorrect=False):
         """ Parses the strings provided as argument, assuming that the latter describes an order.
 
             :param lines: A list of string, each string being one line of the ``file'' to parse.
             :type lines: list
+            :param autocorrect: A boolean indicating whether we should try to automatically correct the potential errors
+            in the file. Default is False.
+            :type autocorrect: bool
         """
 
         # The first line gives us the number of alternatives, then comes the names of the alternatives
         self.num_alternatives = int(lines[0])
         for i in range(1, self.num_alternatives + 1):
-            self.alternatives_name[i] = lines[i].split(",")[1].strip()
+            alt_name = lines[i].split(",")[1].strip()
+            if autocorrect and alt_name in self.alternatives_name.values():
+                tmp = 1
+                while alt_name + "__" + str(tmp) in self.alternatives_name.values():
+                    tmp += 1
+                self.alternatives_name[i] = alt_name + "__" + str(tmp)
+            else:
+                self.alternatives_name[i] = alt_name
 
         # We've reached the description of the preferences. We start by some numbers...
         self.num_voters = int(lines[self.num_alternatives + 1].split(",")[0])
@@ -356,9 +388,9 @@ class PreflibInstance(object):
         self.num_unique_order = int(lines[self.num_alternatives + 1].split(",")[2])
 
         # ... and finally comes the preferences
-        for l in lines[self.num_alternatives + 2:]:
+        for line in lines[self.num_alternatives + 2:]:
             # The first element indicates the multiplicity of the order
-            elements = l.strip().split(",")
+            elements = line.strip().split(",")
             multiplicity = int(elements[0])
 
             # Then we deal with the rest
@@ -391,16 +423,26 @@ class PreflibInstance(object):
                         else:
                             if (int(w),) not in order:
                                 order.append((int(w),))
-            self.orders.append(tuple(order))
-            self.order_multiplicity[tuple(order)] = multiplicity
+            order = tuple(order)
+            self.orders.append(order)
+            if autocorrect and order in self.order_multiplicity:
+                self.order_multiplicity[tuple(order)] += multiplicity
+            else:
+                self.order_multiplicity[tuple(order)] = multiplicity
 
-    def parse_graph(self, lines, is_WMD=False):
+        if autocorrect:
+            self.orders = list(set(self.orders))
+
+    def parse_graph(self, lines, is_WMD=False, autocorrect=False):
         """ Parses the strings, assuming that the latter describes a graph.
 
             :param lines: A list of string, each string being one line of the ``file'' to parse.
             :type lines: list
             :param is_WMD: True if the graph to parse represents weighted matching data, default is False.
             :type is_WMD: bool
+            :param autocorrect: A boolean indicating whether we should try to automatically correct the potential errors
+            in the file. Default is False.
+            :type autocorrect: bool
         """
 
         # For Weighted Matching Data, the meaning are not the same
@@ -418,11 +460,11 @@ class PreflibInstance(object):
         # Skip the lines that describe the data
         graph_first_line = self.num_alternatives + 1 if is_WMD else self.num_alternatives + 2
         self.graph = Graph()
-        for l in lines[graph_first_line:]:
+        for line in lines[graph_first_line:]:
             if is_WMD:
-                (vertex1, vertex2, weight) = l.strip().split(",")
+                (vertex1, vertex2, weight) = line.strip().split(",")
             else:
-                (weight, vertex1, vertex2) = l.strip().split(",")
+                (weight, vertex1, vertex2) = line.strip().split(",")
             weight = int(weight)
             vertex1 = int(vertex1)
             vertex2 = int(vertex2)

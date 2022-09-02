@@ -14,12 +14,16 @@ def pairwise_scores(instance):
     """
     if instance.data_type in ["soc", "toc", "soi", "toi"]:
         scores = {alt: {a: 0 for a in instance.alternatives_name if a != alt} for alt in instance.alternatives_name}
+        print(scores)
         for order in instance.orders:
             alternatives_before = []
             for indif_class in order:
                 # Every alternative appearing before are beating the ones in the current indifference class
                 for alt_beaten in indif_class:
                     for alt_winning in alternatives_before:
+                        print(alt_winning)
+                        print(alt_beaten)
+                        print(order)
                         scores[alt_winning][alt_beaten] += instance.order_multiplicity[order]
                 alternatives_before += [alt for alt in indif_class]
         return scores

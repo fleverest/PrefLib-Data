@@ -131,3 +131,7 @@ dmypy.json
 
 *.zip
 zip/
+.idea/
+preflibtools/tests
+log/
+trash/

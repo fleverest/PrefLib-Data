@@ -10,7 +10,7 @@ Series Number: 00026
 
 Publication Date: 2021-06-25
 
-Description: <p> The 2002 French Presidental Election Dataset was collected by Jean-Francois Laslier and Karine Van der Straeten.  It consists of 2,597 approval ballots collected in parallel to the actual election in 6 different districts in France.</p> <p>The approval votes were collected at a set of polling stations in France during the first round of voting in the 2002 French National Election.  Voters in these districts were informed prior to the election that they would have the ability to cast an approval ballot along with their normal ballot for the election.  Overall, over 75% of those who turned up to vote participated in the experiment.  Each of the files represent one district voting on the same election.  There are between 367 and 476 voters (2,597 in all) and 16 candidates.  Additional details the method used to collect the data and results of analysis can be found in the required citation for the use of this dataset.</p>
+Description: <p> The 2002 French Presidental Election Dataset was collected by Jean-Francois Laslier and Karine Van der Straeten.  It consists of 2,597 approval ballots collected in parallel to the actual election in 6 different districts in France. Note that some participant either approved or disapproved of all alternatives. These lines have been deleted in the PrefLib format (but preserved in a dat file).</p> <p>The approval votes were collected at a set of polling stations in France during the first round of voting in the 2002 French National Election.  Voters in these districts were informed prior to the election that they would have the ability to cast an approval ballot along with their normal ballot for the election.  Overall, over 75% of those who turned up to vote participated in the experiment.  Each of the files represent one district voting on the same election.  There are between 367 and 476 voters (2,597 in all) and 16 candidates.  Additional details the method used to collect the data and results of analysis can be found in the required citation for the use of this dataset.</p>
 
 Required Citations: A Live Experiment on Approval Voting; Jean-François Laslier and Karine Van der Straeten; Experimental Economics 11: 97–105; 2008
 
@@ -46,6 +46,7 @@ patch_number, file_name, modification_type, publication_date
 00000005, ED-00026-00000005.tog, induced, 2021-06-25
 00000005, ED-00026-00000005.wmg, induced, 2021-06-25
 00000006, ED-00026-00000006.pwg, induced, 2021-06-25
-00000006, ED-00026-00000006.toc, original, 2021-06-25
+00000006, ED-00026-00000006.toc, induced, 2021-06-25
 00000006, ED-00026-00000006.tog, induced, 2021-06-25
 00000006, ED-00026-00000006.wmg, induced, 2021-06-25
+00000006, ED-00026-00000006.dat, original, 2021-06-25

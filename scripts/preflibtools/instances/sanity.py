@@ -33,8 +33,8 @@ def basic_numbers(instance):
               error_list)
 
     alternatives = set(alt for order in instance.orders for indif_class in order for alt in indif_class)
-    my_assert(len(alternatives) == instance.num_alternatives,
-              "Number of alternatives {} differs from the alternatives appearing in the orders {}".format(
+    my_assert(len(alternatives) <= instance.num_alternatives,
+              "More alternatives appear in the orders {} than in the header {}".format(
                   len(alternatives), instance.num_alternatives),
               error_list)
 
@@ -73,7 +73,7 @@ def orders(instance):
                       error_list)
 
             if instance.data_type in ["soc", "toc"]:
-                my_assert(len([alt for indif_class in order for alt in indif_class]) <= instance.num_alternatives,
+                my_assert(len(set(alt for indif_class in order for alt in indif_class)) <= instance.num_alternatives,
                           "Order {} at position {} does not seem complete".format(order, i),
                           error_list)
 
@@ -82,7 +82,9 @@ def orders(instance):
                           "Order {} at position {} does not seem strict".format(order, i),
                           error_list)
 
-    # Same order appears several times
+        my_assert(len(set(instance.orders)) == len(instance.orders),
+                  "Some orders appear several times: {} != {}".format(len(set(instance.orders)), len(instance.orders)),
+                  error_list)
 
     return error_list
 
