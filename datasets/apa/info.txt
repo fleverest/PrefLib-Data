@@ -2,8 +2,6 @@ Name: APA Election Data
 
 Abbreviation: apa
 
-Category: ED
-
 Tags: Election
 
 Series Number: 00028
@@ -14,80 +12,30 @@ Description: <p>This dataset contains the results of the elections of the Americ
 
 Required Citations: The unexpected empirical consensus among consensus methods; Regenwetter, M., Kim, A., Kantor, A., & Ho, M.-H. R.; Psychological Science, 18, 629-635; 2007| Behavioural social choice: A status report; Regenwetter, M., Grofman, B., Popova, A., Messner, W., Davis-Stober, C. & Cavagnaro, D.; Philosophical Transactions of the Royal Society B: Biological Sciences, 364, 833-843; 2009 | Consensus formation in organizations: Hunting for the social choice conundrum in American Psychological Association elections; Popov, S., Popova, A., Regenwetter, M.; Decision; 2015
 
-Selected Studies: 
+Selected Studies:
 
-patch_name, description, series_number, publication_date, representative
-ED-00028-00000001, APA_1998, 00000001, 2022-08-19, ED-00028-00000001.soi
-ED-00028-00000002, APA_1999, 00000002, 2022-08-19, ED-00028-00000002.soi
-ED-00028-00000003, APA_2000, 00000003, 2022-08-19, ED-00028-00000003.soi
-ED-00028-00000004, APA_2001, 00000004, 2022-08-19, ED-00028-00000004.soi
-ED-00028-00000005, APA_2002, 00000005, 2022-08-19, ED-00028-00000005.soi
-ED-00028-00000006, APA_2003, 00000006, 2022-08-19, ED-00028-00000006.soi
-ED-00028-00000007, APA_2004, 00000007, 2022-08-19, ED-00028-00000007.soi
-ED-00028-00000008, APA_2005, 00000008, 2022-08-19, ED-00028-00000008.soi
-ED-00028-00000009, APA_2006, 00000009, 2022-08-19, ED-00028-00000009.soi
-ED-00028-00000010, APA_2007, 00000010, 2022-08-19, ED-00028-00000010.soi
-ED-00028-00000011, APA_2008, 00000011, 2022-08-19, ED-00028-00000011.soi
-ED-00028-00000012, APA_2009, 00000012, 2022-08-19, ED-00028-00000012.soi
-
-patch_number, file_name, modification_type, publication_date
-00000001, ED-00028-00000001.pwg, induced, 2021-06-22
-00000001, ED-00028-00000001.soi, original, 2022-08-19
-00000001, ED-00028-00000001.toc, imbued, 2021-06-22
-00000001, ED-00028-00000001.tog, induced, 2021-06-22
-00000001, ED-00028-00000001.wmg, induced, 2021-06-22
-00000002, ED-00028-00000002.mjg, induced, 2021-06-22
-00000002, ED-00028-00000002.pwg, induced, 2021-06-22
-00000002, ED-00028-00000002.soi, original, 2022-08-19
-00000002, ED-00028-00000002.toc, imbued, 2021-06-22
-00000002, ED-00028-00000002.wmg, induced, 2021-06-22
-00000003, ED-00028-00000003.mjg, induced, 2021-06-22
-00000003, ED-00028-00000003.pwg, induced, 2021-06-22
-00000003, ED-00028-00000003.soi, original, 2022-08-19
-00000003, ED-00028-00000003.toc, imbued, 2021-06-22
-00000003, ED-00028-00000003.wmg, induced, 2021-06-22
-00000004, ED-00028-00000004.mjg, induced, 2021-06-22
-00000004, ED-00028-00000004.pwg, induced, 2021-06-22
-00000004, ED-00028-00000004.soi, original, 2022-08-19
-00000004, ED-00028-00000004.toc, imbued, 2021-06-22
-00000004, ED-00028-00000004.wmg, induced, 2021-06-22
-00000005, ED-00028-00000005.pwg, induced, 2021-06-22
-00000005, ED-00028-00000005.soi, original, 2022-08-19
-00000005, ED-00028-00000005.toc, imbued, 2021-06-22
-00000005, ED-00028-00000005.tog, induced, 2021-06-22
-00000005, ED-00028-00000005.wmg, induced, 2021-06-22
-00000006, ED-00028-00000006.pwg, induced, 2021-06-22
-00000006, ED-00028-00000006.soi, original, 2022-08-19
-00000006, ED-00028-00000006.toc, imbued, 2021-06-22
-00000006, ED-00028-00000006.tog, induced, 2021-06-22
-00000006, ED-00028-00000006.wmg, induced, 2021-06-22
-00000007, ED-00028-00000007.mjg, induced, 2021-06-22
-00000007, ED-00028-00000007.pwg, induced, 2021-06-22
-00000007, ED-00028-00000007.soi, original, 2022-08-19
-00000007, ED-00028-00000007.toc, imbued, 2021-06-22
-00000007, ED-00028-00000007.wmg, induced, 2021-06-22
-00000008, ED-00028-00000008.mjg, induced, 2021-06-22
-00000008, ED-00028-00000008.pwg, induced, 2021-06-22
-00000008, ED-00028-00000008.soi, original, 2022-08-19
-00000008, ED-00028-00000008.toc, imbued, 2021-06-22
-00000008, ED-00028-00000008.wmg, induced, 2021-06-22
-00000009, ED-00028-00000009.mjg, induced, 2021-06-22
-00000009, ED-00028-00000009.pwg, induced, 2021-06-22
-00000009, ED-00028-00000009.soi, original, 2022-08-19
-00000009, ED-00028-00000009.toc, imbued, 2021-06-22
-00000009, ED-00028-00000009.wmg, induced, 2021-06-22
-00000010, ED-00028-00000010.mjg, induced, 2021-06-22
-00000010, ED-00028-00000010.pwg, induced, 2021-06-22
-00000010, ED-00028-00000010.soi, original, 2022-08-19
-00000010, ED-00028-00000010.toc, imbued, 2021-06-22
-00000010, ED-00028-00000010.wmg, induced, 2021-06-22
-00000011, ED-00028-00000011.mjg, induced, 2021-06-22
-00000011, ED-00028-00000011.pwg, induced, 2021-06-22
-00000011, ED-00028-00000011.soi, original, 2022-08-19
-00000011, ED-00028-00000011.toc, imbued, 2021-06-22
-00000011, ED-00028-00000011.wmg, induced, 2021-06-22
-00000012, ED-00028-00000012.mjg, induced, 2021-06-22
-00000012, ED-00028-00000012.pwg, induced, 2021-06-22
-00000012, ED-00028-00000012.soi, original, 2022-08-19
-00000012, ED-00028-00000012.toc, imbued, 2021-06-22
-00000012, ED-00028-00000012.wmg, induced, 2021-06-22
+file_name, modification_type, relates_to, title, description, publication_date
+ED-00028-00000001.soi, original, , APA_1998, , 2021-06-22
+ED-00028-00000001.toc, imbued, ED-00028-00000001.soi, APA_1998, Obtained from the soi by adding the unranked alternatives at the bottom, 2021-06-22
+ED-00028-00000002.soi, original, , APA_1999, , 2021-06-22
+ED-00028-00000002.toc, imbued, ED-00028-00000002.soi, APA_1999, Obtained from the soi by adding the unranked alternatives at the bottom, 2021-06-22
+ED-00028-00000003.soi, original, , APA_2000, , 2021-06-22
+ED-00028-00000003.toc, imbued, ED-00028-00000003.soi, APA_2000, Obtained from the soi by adding the unranked alternatives at the bottom, 2021-06-22
+ED-00028-00000004.soi, original, , APA_2001, , 2021-06-22
+ED-00028-00000004.toc, imbued, ED-00028-00000004.soi, APA_2001, Obtained from the soi by adding the unranked alternatives at the bottom, 2021-06-22
+ED-00028-00000005.soi, original, , APA_2002, , 2021-06-22
+ED-00028-00000005.toc, imbued, ED-00028-00000005.soi, APA_2002, Obtained from the soi by adding the unranked alternatives at the bottom, 2021-06-22
+ED-00028-00000006.soi, original, , APA_2003, , 2021-06-22
+ED-00028-00000006.toc, imbued, ED-00028-00000006.soi, APA_2003, Obtained from the soi by adding the unranked alternatives at the bottom, 2021-06-22
+ED-00028-00000007.soi, original, , APA_2004, , 2021-06-22
+ED-00028-00000007.toc, imbued, ED-00028-00000007.soi, APA_2004, Obtained from the soi by adding the unranked alternatives at the bottom, 2021-06-22
+ED-00028-00000008.soi, original, , APA_2005, , 2021-06-22
+ED-00028-00000008.toc, imbued, ED-00028-00000008.soi, APA_2005, Obtained from the soi by adding the unranked alternatives at the bottom, 2021-06-22
+ED-00028-00000009.soi, original, , APA_2006, , 2021-06-22
+ED-00028-00000009.toc, imbued, ED-00028-00000009.soi, APA_2006, Obtained from the soi by adding the unranked alternatives at the bottom, 2021-06-22
+ED-00028-00000010.soi, original, , APA_2007, , 2021-06-22
+ED-00028-00000010.toc, imbued, ED-00028-00000010.soi, APA_2007, Obtained from the soi by adding the unranked alternatives at the bottom, 2021-06-22
+ED-00028-00000011.soi, original, , APA_2008, , 2021-06-22
+ED-00028-00000011.toc, imbued, ED-00028-00000011.soi, APA_2008, Obtained from the soi by adding the unranked alternatives at the bottom, 2021-06-22
+ED-00028-00000012.soi, original, , APA_2009, , 2021-06-22
+ED-00028-00000012.toc, imbued, ED-00028-00000012.soi, APA_2009, Obtained from the soi by adding the unranked alternatives at the bottom, 2021-06-22

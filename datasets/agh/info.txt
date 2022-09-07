@@ -2,8 +2,6 @@ Name: AGH Course Selection
 
 Abbreviation: agh
 
-Category: ED
-
 Tags: Election
 
 Series Number: 00009
@@ -16,16 +14,6 @@ Required Citations:
 
 Selected Studies: Achieving Fully Proportional Representation is Easy in Practice; P. Skowron, P. Faliszewski, A. Slinko; Proceedings of AAMAS; 2013 | Measuring Diversity of Preferences in a Group; V. Hashemi and U. Endriss; Proceedings of ECAI; 2014
 
-patch_name, description, series_number, publication_date, representative
-ED-00009-00000001, 2003 Registration, 00000001, 2022-08-19, ED-00009-00000001.soc
-ED-00009-00000002, 2004 Registration, 00000002, 2022-08-19, ED-00009-00000002.soc
-
-patch_number, file_name, modification_type, publication_date
-00000001, ED-00009-00000001.pwg, induced, 2021-06-22
-00000001, ED-00009-00000001.soc, original, 2022-08-19
-00000001, ED-00009-00000001.tog, induced, 2021-06-22
-00000001, ED-00009-00000001.wmg, induced, 2021-06-22
-00000002, ED-00009-00000002.pwg, induced, 2021-06-22
-00000002, ED-00009-00000002.soc, original, 2022-08-19
-00000002, ED-00009-00000002.tog, induced, 2021-06-22
-00000002, ED-00009-00000002.wmg, induced, 2021-06-22
+file_name, modification_type, relates_to, title, description, publication_date
+ED-00009-00000001.soc, original, , 2003 Registration, , 2021-06-22
+ED-00009-00000002.soc, original, , 2004 Registration, , 2021-06-22

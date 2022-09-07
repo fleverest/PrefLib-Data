@@ -2,8 +2,6 @@ Name: Mariner Path Selection
 
 Abbreviation: nasa
 
-Category: ED
-
 Tags: Election
 
 Series Number: 00003
@@ -16,11 +14,5 @@ Required Citations:
 
 Selected Studies: An Actual Application of Collective Choice Theory to the Selection of Trajectories for the Mariner Jupiter/Saturn 1977 Project; James S. Dyer and Ralph F. Miles Jr.; Operations Research 24(2); 1976 | Where Are the Hard Manipulation Problems?; Toby Walsh; Journal of Artificial Intelligence Research, 42, 1-39; 2011
 
-patch_name, description, series_number, publication_date, representative
-ED-00003-00000001, NASA Mariner Path Selection, 00000001, 2022-08-19, ED-00003-00000001.toc
-
-patch_number, file_name, modification_type, publication_date
-00000001, ED-00003-00000001.mjg, induced, 2021-06-22
-00000001, ED-00003-00000001.pwg, induced, 2021-06-22
-00000001, ED-00003-00000001.toc, original, 2022-08-19
-00000001, ED-00003-00000001.wmg, induced, 2021-06-22
+file_name, modification_type, relates_to, title, description, publication_date
+ED-00003-00000001.toc, original, , NASA Mariner Path Selection, , 2021-06-22

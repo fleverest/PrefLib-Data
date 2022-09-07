@@ -2,8 +2,6 @@ Name: Minneapolis Election Data
 
 Abbreviation: minneapolis
 
-Category: ED
-
 Tags: Election
 
 Series Number: 00018
@@ -14,32 +12,14 @@ Description: <p>The 2009 Minneapolis Data contains the results from the election
 
 Required Citations: Open STV; Jeffery O'Neill; <a href="http://www.openstv.org">www.OpenSTV.org</a>; 2013
 
-Selected Studies: 
+Selected Studies:
 
-patch_name, description, series_number, publication_date, representative
-ED-00018-00000001, 2009 Minneapolis Park and Recreation Commissioner At-Large Election - Full, 00000001, 2022-08-19, ED-00018-00000001.soi
-ED-00018-00000002, 2009 Minneapolis Park and Recreation Commissioner At-Large Election - No Write In, 00000002, 2022-08-19, ED-00018-00000002.soi
-ED-00018-00000003, 2009 Minneapolis Board of Estimate and Taxation Election - Full, 00000003, 2022-08-19, ED-00018-00000003.soi
-ED-00018-00000004, 2009 Minneapolis Board of Estimate and Taxation Election - No Write In, 00000004, 2022-08-19, ED-00018-00000004.soi
-
-patch_number, file_name, modification_type, publication_date
-00000001, ED-00018-00000001.mjg, induced, 2021-06-22
-00000001, ED-00018-00000001.pwg, induced, 2021-06-22
-00000001, ED-00018-00000001.soi, original, 2022-08-19
-00000001, ED-00018-00000001.toc, imbued, 2021-06-22
-00000001, ED-00018-00000001.wmg, induced, 2021-06-22
-00000002, ED-00018-00000002.mjg, induced, 2021-06-22
-00000002, ED-00018-00000002.pwg, induced, 2021-06-22
-00000002, ED-00018-00000002.soi, original, 2022-08-19
-00000002, ED-00018-00000002.toc, imbued, 2021-06-22
-00000002, ED-00018-00000002.wmg, induced, 2021-06-22
-00000003, ED-00018-00000003.mjg, induced, 2021-06-22
-00000003, ED-00018-00000003.pwg, induced, 2021-06-22
-00000003, ED-00018-00000003.soi, original, 2022-08-19
-00000003, ED-00018-00000003.toc, imbued, 2021-06-22
-00000003, ED-00018-00000003.wmg, induced, 2021-06-22
-00000004, ED-00018-00000004.mjg, induced, 2021-06-22
-00000004, ED-00018-00000004.pwg, induced, 2021-06-22
-00000004, ED-00018-00000004.soi, original, 2022-08-19
-00000004, ED-00018-00000004.toc, imbued, 2021-06-22
-00000004, ED-00018-00000004.wmg, induced, 2021-06-22
+file_name, modification_type, relates_to, title, description, publication_date
+ED-00018-00000001.soi, original, , 2009 Minneapolis Park and Recreation Commissioner At-Large Election - Full, , 2021-06-22
+ED-00018-00000001.toc, imbued, ED-00018-00000001.soi, 2009 Minneapolis Park and Recreation Commissioner At-Large Election - Full, Obtained from the soi by adding the unranked alternatives at the bottom, 2021-06-22
+ED-00018-00000002.soi, original, , 2009 Minneapolis Park and Recreation Commissioner At-Large Election - No Write In, , 2021-06-22
+ED-00018-00000002.toc, imbued, ED-00018-00000002.soi, 2009 Minneapolis Park and Recreation Commissioner At-Large Election - No Write In, Obtained from the soi by adding the unranked alternatives at the bottom, 2021-06-22
+ED-00018-00000003.soi, original, , 2009 Minneapolis Board of Estimate and Taxation Election - Full, , 2021-06-22
+ED-00018-00000003.toc, imbued, ED-00018-00000003.soi, 2009 Minneapolis Board of Estimate and Taxation Election - Full, Obtained from the soi by adding the unranked alternatives at the bottom, 2021-06-22
+ED-00018-00000004.soi, original, , 2009 Minneapolis Board of Estimate and Taxation Election - No Write In, , 2021-06-22
+ED-00018-00000004.toc, imbued, ED-00018-00000004.soi, 2009 Minneapolis Board of Estimate and Taxation Election - No Write In, Obtained from the soi by adding the unranked alternatives at the bottom, 2021-06-22

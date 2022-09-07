@@ -2,8 +2,6 @@ Name: Proto French Election
 
 Abbreviation: frenchrate
 
-Category: ED
-
 Tags: Election
 
 Series Number: 00027
@@ -16,11 +14,5 @@ Required Citations:
 
 Selected Studies: Vote par assentiment pendant la presidentielle de 2002: analyse d’une experience; Jean-Francois Laslier and Karine Van der Straeten; Revue Française de Science Politique 54 : 99–130; 2004
 
-patch_name, description, series_number, publication_date, representative
-ED-00027-00000001, Etudes Poltiques, 00000001, 2022-08-19, ED-00027-00000001.toc
-
-patch_number, file_name, modification_type, publication_date
-00000001, ED-00027-00000001.pwg, induced, 2021-06-22
-00000001, ED-00027-00000001.toc, original, 2022-08-19
-00000001, ED-00027-00000001.tog, induced, 2021-06-22
-00000001, ED-00027-00000001.wmg, induced, 2021-06-22
+file_name, modification_type, relates_to, title, description, publication_date
+ED-00027-00000001.toc, original, , Etudes Poltiques, , 2021-06-22

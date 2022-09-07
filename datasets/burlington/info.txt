@@ -2,8 +2,6 @@ Name: Burlington Election Data
 
 Abbreviation: burlington
 
-Category: ED
-
 Tags: Election
 
 Series Number: 00005
@@ -16,18 +14,8 @@ Required Citations: Open STV; Jeffery O'Neill; <a href="http://www.openstv.org">
 
 Selected Studies: Burlington Vermont 2009 IRV Mayoral Election Analysis; Anthony Gierzynski, Wes Hamilton, & Warren D. Smith; Available at <a href="http://rangevoting.org/Burlington.html"> www.rangevoting.com </a>; 2009
 
-patch_name, description, series_number, publication_date, representative
-ED-00005-00000001, 2006 Burlington Mayoral Election, 00000001, 2022-08-19, ED-00005-00000001.toi
-ED-00005-00000002, 2009 Burlington Mayoral Election, 00000002, 2022-08-19, ED-00005-00000002.toi
-
-patch_number, file_name, modification_type, publication_date
-00000001, ED-00005-00000001.pwg, induced, 2021-06-22
-00000001, ED-00005-00000001.toc, imbued, 2021-06-22
-00000001, ED-00005-00000001.tog, induced, 2021-06-22
-00000001, ED-00005-00000001.toi, original, 2022-08-19
-00000001, ED-00005-00000001.wmg, induced, 2021-06-22
-00000002, ED-00005-00000002.mjg, induced, 2021-06-22
-00000002, ED-00005-00000002.pwg, induced, 2021-06-22
-00000002, ED-00005-00000002.toc, imbued, 2021-06-22
-00000002, ED-00005-00000002.toi, original, 2022-08-19
-00000002, ED-00005-00000002.wmg, induced, 2021-06-22
+file_name, modification_type, relates_to, title, description, publication_date
+ED-00005-00000001.toc, imbued, , 2006 Burlington Mayoral Election, Obtained from the toi by adding the unranked alternatives at the bottom, 2021-06-22
+ED-00005-00000001.toi, original, , 2006 Burlington Mayoral Election, , 2021-06-22
+ED-00005-00000002.toc, imbued, , 2009 Burlington Mayoral Election, Obtained from the toi by adding the unranked alternatives at the bottom, 2021-06-22
+ED-00005-00000002.toi, original, , 2009 Burlington Mayoral Election, , 2021-06-22

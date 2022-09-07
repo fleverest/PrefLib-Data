@@ -2,8 +2,6 @@ Name: Social Recommendation
 
 Abbreviation: social
 
-Category: CD
-
 Tags: Combinatorial
 
 Series Number: 00003
@@ -16,12 +14,7 @@ Required Citations: Group Decision Support for Leisure Activities Using Voting a
 
 Selected Studies: 
 
-patch_name, description, series_number, publication_date, representative
-CD-00003-00000001, links, 00000001, 2022-08-19, CD-00003-00000001.csv
-CD-00003-00000002, pubs, 00000002, 2022-08-19, CD-00003-00000002.csv
-CD-00003-00000003, rest, 00000003, 2022-08-19, CD-00003-00000003.csv
-
-patch_number, file_name, modification_type, publication_date
-00000001, CD-00003-00000001.csv, original, 2022-08-19
-00000002, CD-00003-00000002.csv, original, 2022-08-19
-00000003, CD-00003-00000003.csv, original, 2022-08-19
+file_name, modification_type, relates_to, title, description, publication_date
+CD-00003-00000001.csv, original, , links, , 2021-06-25
+CD-00003-00000002.csv, original, , pubs, , 2021-06-25
+CD-00003-00000003.csv, original, , rest, , 2021-06-25

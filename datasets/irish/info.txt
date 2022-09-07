@@ -2,8 +2,6 @@ Name: Irish Election Data
 
 Abbreviation: irish
 
-Category: ED
-
 Tags: Election
 
 Series Number: 00001
@@ -16,24 +14,10 @@ Required Citations:
 
 Selected Studies: Budgeted Social Choice: From Consensus to Personalized Decision Making; Tyler Lu and Craig Boutilier; Proceedings of IJCAI; 2011
 
-patch_name, description, series_number, publication_date, representative
-ED-00001-00000001, 2002 Dublin North, 00000001, 2022-08-19, ED-00001-00000001.soi
-ED-00001-00000002, 2002 Dublin West, 00000002, 2022-08-19, ED-00001-00000002.soi
-ED-00001-00000003, 2002 Meath, 00000003, 2022-08-19, ED-00001-00000003.soi
-
-patch_number, file_name, modification_type, publication_date
-00000001, ED-00001-00000001.pwg, induced, 2021-06-22
-00000001, ED-00001-00000001.soi, original, 2022-08-19
-00000001, ED-00001-00000001.toc, imbued, 2021-06-22
-00000001, ED-00001-00000001.tog, induced, 2021-06-22
-00000001, ED-00001-00000001.wmg, induced, 2021-06-22
-00000002, ED-00001-00000002.pwg, induced, 2021-06-22
-00000002, ED-00001-00000002.soi, original, 2022-08-19
-00000002, ED-00001-00000002.toc, imbued, 2021-06-22
-00000002, ED-00001-00000002.tog, induced, 2021-06-22
-00000002, ED-00001-00000002.wmg, induced, 2021-06-22
-00000003, ED-00001-00000003.pwg, induced, 2021-06-22
-00000003, ED-00001-00000003.soi, original, 2022-08-19
-00000003, ED-00001-00000003.toc, imbued, 2021-06-22
-00000003, ED-00001-00000003.tog, induced, 2021-06-22
-00000003, ED-00001-00000003.wmg, induced, 2021-06-22
+file_name, modification_type, relates_to, title, description, publication_date
+ED-00001-00000001.soi, original, , 2002 Dublin North, , 2021-06-22
+ED-00001-00000001.toc, imbued, , 2002 Dublin North, , 2021-06-22
+ED-00001-00000002.soi, original, , 2002 Dublin West, , 2021-06-22
+ED-00001-00000002.toc, imbued, , 2002 Dublin West, , 2021-06-22
+ED-00001-00000003.soi, original, , 2002 Meath, , 2021-06-22
+ED-00001-00000003.toc, imbued, , 2002 Meath, , 2021-06-22

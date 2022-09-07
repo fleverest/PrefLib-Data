@@ -2,44 +2,28 @@ Name: Pierce Election Data
 
 Abbreviation: pierce
 
-Category: ED
-
 Tags: Election
 
 Series Number: 00020
 
 Publication Date: 2021-06-22
 
-Description: <p>The 2008 Pierce Data contains the results from several elections, including county executive, held in Pierce, WA in 2008. The set contains 4 distinct elections with between 4 and 7 canddiates and 40,000 and 300,000 voters.</p> <p>Note that these elections were conducted under a ranked voting system which allowed blank entries. In processing this data for PrefLib we have ignored blanks and only report the order over the candidates. Some of the ballots were also not proper orders (alternatives appearing several times etc...), we deleted those and kept the original data in a .dat file.</p><p> The data on this page was donated by Jeffrey O'Neill who runs the site <a href="http://www.openstv.org">OpenSTV.org</a>.</p>
+Description: <p>The 2008 Pierce Data contains the results from several elections, including county executive, held in Pierce, WA in 2008. The set contains 4 distinct elections with between 4 and 7 canddiates and 40,000 and 300,000 voters.</p> <p>Note that these elections were conducted under a ranked voting system which allowed blank entries. In processing this data for PrefLib we have ignored blanks and only report the order over the candidates.</p><p> The data on this page was donated by Jeffrey O'Neill who runs the site <a href="http://www.openstv.org">OpenSTV.org</a>.</p>
 
 Required Citations: Open STV; Jeffery O'Neill; <a href="http://www.openstv.org">www.OpenSTV.org</a>; 2013
 
-Selected Studies: 
+Selected Studies:
 
-patch_name, description, series_number, publication_date, representative
-ED-00020-00000001, 2009 Pierce County Auditor, 00000001, 2022-08-19, ED-00020-00000001.toi
-ED-00020-00000002, 2008 Pierce County Council - District 2, 00000002, 2022-08-19, ED-00020-00000002.toi
-ED-00020-00000003, 2008 Pierce County Executive, 00000003, 2022-08-19, ED-00020-00000003.toi
-ED-00020-00000004, 2008 Pierce County Assessor - Treasurer, 00000004, 2022-08-19, ED-00020-00000004.toi
-
-patch_number, file_name, modification_type, publication_date
-00000001, ED-00020-00000001.mjg, induced, 2021-06-22
-00000001, ED-00020-00000001.pwg, induced, 2021-06-22
-00000001, ED-00020-00000001.toc, imbued, 2021-06-22
-00000001, ED-00020-00000001.toi, original, 2022-08-19
-00000001, ED-00020-00000001.wmg, induced, 2021-06-22
-00000002, ED-00020-00000002.pwg, induced, 2021-06-22
-00000002, ED-00020-00000002.toc, imbued, 2021-06-22
-00000002, ED-00020-00000002.tog, induced, 2021-06-22
-00000002, ED-00020-00000002.toi, original, 2022-08-19
-00000002, ED-00020-00000002.wmg, induced, 2021-06-22
-00000003, ED-00020-00000003.mjg, induced, 2021-06-22
-00000003, ED-00020-00000003.pwg, induced, 2021-06-22
-00000003, ED-00020-00000003.toc, imbued, 2021-06-22
-00000003, ED-00020-00000003.toi, original, 2022-08-19
-00000003, ED-00020-00000003.wmg, induced, 2021-06-22
-00000004, ED-00020-00000004.mjg, induced, 2021-06-22
-00000004, ED-00020-00000004.pwg, induced, 2021-06-22
-00000004, ED-00020-00000004.toc, imbued, 2021-06-22
-00000004, ED-00020-00000004.toi, original, 2022-08-19
-00000004, ED-00020-00000004.wmg, induced, 2021-06-22
+file_name, modification_type, relates_to, title, description, publication_date
+ED-00020-00000001.dat, original, ED-00020-00000001.toi, 2009 Pierce County Auditor, Includes the invalid ballots, 2021-06-22
+ED-00020-00000001.toc, imbued, ED-00020-00000001.toi, 2009 Pierce County Auditor, Obtained from the toi by adding the unranked alternatives at the bottom, 2021-06-22
+ED-00020-00000001.toi, original, , 2009 Pierce County Auditor, , 2021-06-22
+ED-00020-00000002.dat, original, ED-00020-00000002.toi, 2009 Pierce County Auditor, Includes the invalid ballots, 2021-06-22
+ED-00020-00000002.toc, imbued, ED-00020-00000002.toi, 2008 Pierce County Council - District 2, Obtained from the toi by adding the unranked alternatives at the bottom, 2021-06-22
+ED-00020-00000002.toi, original, , 2008 Pierce County Council - District 2, , 2021-06-22
+ED-00020-00000003.dat, original, ED-00020-00000003.toi, 2009 Pierce County Auditor, Includes the invalid ballots, 2021-06-22
+ED-00020-00000003.toc, imbued, ED-00020-00000003.toi, 2008 Pierce County Executive, Obtained from the toi by adding the unranked alternatives at the bottom, 2021-06-22
+ED-00020-00000003.toi, original, , 2008 Pierce County Executive, , 2021-06-22
+ED-00020-00000004.dat, original, ED-00020-00000004.toi, 2009 Pierce County Auditor, Includes the invalid ballots, 2021-06-22
+ED-00020-00000004.toc, imbued, ED-00020-00000004.toi, 2008 Pierce County Assessor - Treasurer, Obtained from the toi by adding the unranked alternatives at the bottom, 2021-06-22
+ED-00020-00000004.toi, original, , 2008 Pierce County Assessor - Treasurer, , 2021-06-22
