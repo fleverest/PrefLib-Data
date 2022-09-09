@@ -15,9 +15,9 @@ Required Citations:
 Selected Studies: Budgeted Social Choice: From Consensus to Personalized Decision Making; Tyler Lu and Craig Boutilier; Proceedings of IJCAI; 2011
 
 file_name, modification_type, relates_to, title, description, publication_date
-ED-00001-00000001.soi, original, , 2002 Dublin North, , 2021-06-22
-ED-00001-00000001.toc, imbued, , 2002 Dublin North, , 2021-06-22
-ED-00001-00000002.soi, original, , 2002 Dublin West, , 2021-06-22
-ED-00001-00000002.toc, imbued, , 2002 Dublin West, , 2021-06-22
-ED-00001-00000003.soi, original, , 2002 Meath, , 2021-06-22
-ED-00001-00000003.toc, imbued, , 2002 Meath, , 2021-06-22
+00001-00000001.soi, original, , 2002 Dublin North, , 2021-06-22
+00001-00000001.toc, imbued, , 2002 Dublin North, , 2021-06-22
+00001-00000002.soi, original, , 2002 Dublin West, , 2021-06-22
+00001-00000002.toc, imbued, , 2002 Dublin West, , 2021-06-22
+00001-00000003.soi, original, , 2002 Meath, , 2021-06-22
+00001-00000003.toc, imbued, , 2002 Meath, , 2021-06-22
