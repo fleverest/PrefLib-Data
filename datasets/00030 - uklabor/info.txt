@@ -16,4 +16,4 @@ Selected Studies: The Election, by Instant Runoff Voting, of UK Labour Party Lea
 
 file_name, modification_type, relates_to, title, description, publication_date
 00030-00000001.soi, original, , 2010 UK Labor Leadership, , 2021-06-22
-00030-00000001.toc, imbued, ED-00030-00000001.soi, 2010 UK Labor Leadership, Obtained from the soi by adding the unranked alternatives at the bottom, 2021-06-22
+00030-00000001.toc, imbued, 00030-00000001.soi, 2010 UK Labor Leadership, Obtained from the soi by adding the unranked alternatives at the bottom, 2021-06-22

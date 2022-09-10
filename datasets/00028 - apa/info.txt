@@ -16,26 +16,26 @@ Selected Studies:
 
 file_name, modification_type, relates_to, title, description, publication_date
 00028-00000001.soi, original, , APA_1998, , 2021-06-22
-00028-00000001.toc, imbued, ED-00028-00000001.soi, APA_1998, Obtained from the soi by adding the unranked alternatives at the bottom, 2021-06-22
+00028-00000001.toc, imbued, 00028-00000001.soi, APA_1998, Obtained from the soi by adding the unranked alternatives at the bottom, 2021-06-22
 00028-00000002.soi, original, , APA_1999, , 2021-06-22
-00028-00000002.toc, imbued, ED-00028-00000002.soi, APA_1999, Obtained from the soi by adding the unranked alternatives at the bottom, 2021-06-22
+00028-00000002.toc, imbued, 00028-00000002.soi, APA_1999, Obtained from the soi by adding the unranked alternatives at the bottom, 2021-06-22
 00028-00000003.soi, original, , APA_2000, , 2021-06-22
-00028-00000003.toc, imbued, ED-00028-00000003.soi, APA_2000, Obtained from the soi by adding the unranked alternatives at the bottom, 2021-06-22
+00028-00000003.toc, imbued, 00028-00000003.soi, APA_2000, Obtained from the soi by adding the unranked alternatives at the bottom, 2021-06-22
 00028-00000004.soi, original, , APA_2001, , 2021-06-22
-00028-00000004.toc, imbued, ED-00028-00000004.soi, APA_2001, Obtained from the soi by adding the unranked alternatives at the bottom, 2021-06-22
+00028-00000004.toc, imbued, 00028-00000004.soi, APA_2001, Obtained from the soi by adding the unranked alternatives at the bottom, 2021-06-22
 00028-00000005.soi, original, , APA_2002, , 2021-06-22
-00028-00000005.toc, imbued, ED-00028-00000005.soi, APA_2002, Obtained from the soi by adding the unranked alternatives at the bottom, 2021-06-22
+00028-00000005.toc, imbued, 00028-00000005.soi, APA_2002, Obtained from the soi by adding the unranked alternatives at the bottom, 2021-06-22
 00028-00000006.soi, original, , APA_2003, , 2021-06-22
-00028-00000006.toc, imbued, ED-00028-00000006.soi, APA_2003, Obtained from the soi by adding the unranked alternatives at the bottom, 2021-06-22
+00028-00000006.toc, imbued, 00028-00000006.soi, APA_2003, Obtained from the soi by adding the unranked alternatives at the bottom, 2021-06-22
 00028-00000007.soi, original, , APA_2004, , 2021-06-22
-00028-00000007.toc, imbued, ED-00028-00000007.soi, APA_2004, Obtained from the soi by adding the unranked alternatives at the bottom, 2021-06-22
+00028-00000007.toc, imbued, 00028-00000007.soi, APA_2004, Obtained from the soi by adding the unranked alternatives at the bottom, 2021-06-22
 00028-00000008.soi, original, , APA_2005, , 2021-06-22
-00028-00000008.toc, imbued, ED-00028-00000008.soi, APA_2005, Obtained from the soi by adding the unranked alternatives at the bottom, 2021-06-22
+00028-00000008.toc, imbued, 00028-00000008.soi, APA_2005, Obtained from the soi by adding the unranked alternatives at the bottom, 2021-06-22
 00028-00000009.soi, original, , APA_2006, , 2021-06-22
-00028-00000009.toc, imbued, ED-00028-00000009.soi, APA_2006, Obtained from the soi by adding the unranked alternatives at the bottom, 2021-06-22
+00028-00000009.toc, imbued, 00028-00000009.soi, APA_2006, Obtained from the soi by adding the unranked alternatives at the bottom, 2021-06-22
 00028-00000010.soi, original, , APA_2007, , 2021-06-22
-00028-00000010.toc, imbued, ED-00028-00000010.soi, APA_2007, Obtained from the soi by adding the unranked alternatives at the bottom, 2021-06-22
+00028-00000010.toc, imbued, 00028-00000010.soi, APA_2007, Obtained from the soi by adding the unranked alternatives at the bottom, 2021-06-22
 00028-00000011.soi, original, , APA_2008, , 2021-06-22
-00028-00000011.toc, imbued, ED-00028-00000011.soi, APA_2008, Obtained from the soi by adding the unranked alternatives at the bottom, 2021-06-22
+00028-00000011.toc, imbued, 00028-00000011.soi, APA_2008, Obtained from the soi by adding the unranked alternatives at the bottom, 2021-06-22
 00028-00000012.soi, original, , APA_2009, , 2021-06-22
-00028-00000012.toc, imbued, ED-00028-00000012.soi, APA_2009, Obtained from the soi by adding the unranked alternatives at the bottom, 2021-06-22
+00028-00000012.toc, imbued, 00028-00000012.soi, APA_2009, Obtained from the soi by adding the unranked alternatives at the bottom, 2021-06-22

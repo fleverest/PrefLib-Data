@@ -17,6 +17,6 @@ Selected Studies: Nantonac Collaborative Filtering: Recommendation Based on Orde
 file_name, modification_type, relates_to, title, description, publication_date
 00014-00000001.soc, original, , Sushi 10 Rank, , 2021-06-22
 00014-00000002.soi, original, , Sushi 100 Rank, , 2021-06-22
-00014-00000002.toc, imbued, ED-00014-00000002.soi, Sushi 100 Rank, Obtained from the toi by adding the unranked alternatives at the bottom, 2021-06-22
-00014-00000003.toc, imbued, ED-00014-00000003.toi, Sushi 100 Score, Obtained from the toi by adding the unranked alternatives at the bottom, 2021-06-22
+00014-00000002.toc, imbued, 00014-00000002.soi, Sushi 100 Rank, Obtained from the toi by adding the unranked alternatives at the bottom, 2021-06-22
+00014-00000003.toc, imbued, 00014-00000003.toi, Sushi 100 Score, Obtained from the toi by adding the unranked alternatives at the bottom, 2021-06-22
 00014-00000003.toi, original, , Sushi 100 Score, , 2021-06-22

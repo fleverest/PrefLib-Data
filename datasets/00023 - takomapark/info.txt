@@ -15,5 +15,5 @@ Required Citations: Open STV; Jeffery O'Neill; <a href="http://www.openstv.org">
 Selected Studies: 
 
 file_name, modification_type, relates_to, title, description, publication_date
-00023-00000001.toc, imbued, ED-00023-00000001.toi, 2007 Takoma Park City Council Special Election - Ward 5, Obtained from the toi by adding the unranked alternatives at the bottom, 2021-06-22
+00023-00000001.toc, imbued, 00023-00000001.toi, 2007 Takoma Park City Council Special Election - Ward 5, Obtained from the toi by adding the unranked alternatives at the bottom, 2021-06-22
 00023-00000001.toi, original, , 2007 Takoma Park City Council Special Election - Ward 5, , 2021-06-22

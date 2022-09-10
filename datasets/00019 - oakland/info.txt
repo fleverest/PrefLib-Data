@@ -15,24 +15,24 @@ Required Citations: Open STV; Jeffery O'Neill; <a href="http://www.openstv.org">
 Selected Studies: 
 
 file_name, modification_type, relates_to, title, description, publication_date
-00019-00000001.dat, original, ED-00019-00000001.toi, 2010 Oakland City Council - District 4, Includes the invalid ballots, 2021-06-22
-00019-00000001.toc, imbued, ED-00019-00000001.toi, 2010 Oakland City Council - District 4, Obtained from the toi by adding the unranked alternatives at the bottom, 2021-06-22
+00019-00000001.dat, original, 00019-00000001.toi, 2010 Oakland City Council - District 4, Includes the invalid ballots, 2021-06-22
+00019-00000001.toc, imbued, 00019-00000001.toi, 2010 Oakland City Council - District 4, Obtained from the toi by adding the unranked alternatives at the bottom, 2021-06-22
 00019-00000001.toi, original, , 2010 Oakland City Council - District 4, , 2021-06-22
-00019-00000002.dat, original, ED-00019-00000002.toi, 2010 Oakland City Council - District 4, Includes the invalid ballots, 2021-06-22
-00019-00000002.toc, imbued, ED-00019-00000002.toi, 2010 Oakland Mayor, Obtained from the toi by adding the unranked alternatives at the bottom, 2021-06-22
+00019-00000002.dat, original, 00019-00000002.toi, 2010 Oakland City Council - District 4, Includes the invalid ballots, 2021-06-22
+00019-00000002.toc, imbued, 00019-00000002.toi, 2010 Oakland Mayor, Obtained from the toi by adding the unranked alternatives at the bottom, 2021-06-22
 00019-00000002.toi, original, , 2010 Oakland Mayor, , 2021-06-22
-00019-00000003.dat, original, ED-00019-00000003.toi, 2010 Oakland City Council - District 4, Includes the invalid ballots, 2021-06-22
-00019-00000003.toc, imbued, ED-00019-00000003.toi, 2010 Oakland City Council - At Large, Obtained from the toi by adding the unranked alternatives at the bottom, 2021-06-22
+00019-00000003.dat, original, 00019-00000003.toi, 2010 Oakland City Council - District 4, Includes the invalid ballots, 2021-06-22
+00019-00000003.toc, imbued, 00019-00000003.toi, 2010 Oakland City Council - At Large, Obtained from the toi by adding the unranked alternatives at the bottom, 2021-06-22
 00019-00000003.toi, original, , 2010 Oakland City Council - At Large, , 2021-06-22
-00019-00000004.dat, original, ED-00019-00000004.toi, 2010 Oakland City Council - District 4, Includes the invalid ballots, 2021-06-22
-00019-00000004.toc, imbued, ED-00019-00000004.toi, M2010 Oakland City Council - District 1, Obtained from the toi by adding the unranked alternatives at the bottom, 2021-06-22
+00019-00000004.dat, original, 00019-00000004.toi, 2010 Oakland City Council - District 4, Includes the invalid ballots, 2021-06-22
+00019-00000004.toc, imbued, 00019-00000004.toi, M2010 Oakland City Council - District 1, Obtained from the toi by adding the unranked alternatives at the bottom, 2021-06-22
 00019-00000004.toi, original, , M2010 Oakland City Council - District 1, , 2021-06-22
-00019-00000005.dat, original, ED-00019-00000005.toi, 2010 Oakland City Council - District 4, Includes the invalid ballots, 2021-06-22
-00019-00000005.toc, imbued, ED-00019-00000005.toi, 2010 Oakland City Council - District 3, Obtained from the toi by adding the unranked alternatives at the bottom, 2021-06-22
+00019-00000005.dat, original, 00019-00000005.toi, 2010 Oakland City Council - District 4, Includes the invalid ballots, 2021-06-22
+00019-00000005.toc, imbued, 00019-00000005.toi, 2010 Oakland City Council - District 3, Obtained from the toi by adding the unranked alternatives at the bottom, 2021-06-22
 00019-00000005.toi, original, , 2010 Oakland City Council - District 3, , 2021-06-22
-00019-00000006.dat, original, ED-00019-00000006.toi, 2010 Oakland City Council - District 4, Includes the invalid ballots, 2021-06-22
-00019-00000006.toc, imbued, ED-00019-00000006.toi, 2010 Oakland City Council - District 5, Obtained from the toi by adding the unranked alternatives at the bottom, 2021-06-22
+00019-00000006.dat, original, 00019-00000006.toi, 2010 Oakland City Council - District 4, Includes the invalid ballots, 2021-06-22
+00019-00000006.toc, imbued, 00019-00000006.toi, 2010 Oakland City Council - District 5, Obtained from the toi by adding the unranked alternatives at the bottom, 2021-06-22
 00019-00000006.toi, original, , 2010 Oakland City Council - District 5, , 2021-06-22
-00019-00000007.dat, original, ED-00019-00000007.toi, 2010 Oakland City Council - District 4, Includes the invalid ballots, 2021-06-22
-00019-00000007.toc, imbued, ED-00019-00000007.toi, 2010 Oakland School Director - District 3, Obtained from the toi by adding the unranked alternatives at the bottom, 2021-06-22
+00019-00000007.dat, original, 00019-00000007.toi, 2010 Oakland City Council - District 4, Includes the invalid ballots, 2021-06-22
+00019-00000007.toc, imbued, 00019-00000007.toi, 2010 Oakland School Director - District 3, Obtained from the toi by adding the unranked alternatives at the bottom, 2021-06-22
 00019-00000007.toi, original, , 2010 Oakland School Director - District 3, , 2021-06-22
