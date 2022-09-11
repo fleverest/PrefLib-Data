@@ -1,6 +1,6 @@
 import os
 
-IN_DIR = "../datasets/"
+IN_DIR = "../../datasets/"
 OUT_DIR = "../trash/"
 
 try:
