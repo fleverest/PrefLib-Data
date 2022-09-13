@@ -16,7 +16,7 @@ Selected Studies:
 
 file_name, modification_type, relates_to, title, description, publication_date
 00016-00000001.dat, original, 00016-00000001.toi, Aspen City Council 2009, Includes the invalid ballots, 2021-06-22
-00016-00000001.toc, imbued, 00016-00000002.toi, Aspen City Council 2009, Obtained from the toi by adding the unranked alternatives at the bottom, 2021-06-22
+00016-00000001.toc, imbued, 00016-00000001.toi, Aspen City Council 2009, Obtained from the toi by adding the unranked alternatives at the bottom, 2021-06-22
 00016-00000001.toi, original, , Aspen City Council 2009, , 2021-06-22
 00016-00000002.dat, original, 00016-00000002.toi, Aspen Mayor 2009, Includes the invalid ballots, 2021-06-22
 00016-00000002.toc, imbued, 00016-00000002.toi, Aspen Mayor 2009, Obtained from the toi by adding the unranked alternatives at the bottom, 2021-06-22
