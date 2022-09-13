@@ -1,4 +1,4 @@
-Name: Proto French Election Ratings
+Name: Proto French Election Ratings - Rating
 
 Abbreviation: frenchratecombi
 
