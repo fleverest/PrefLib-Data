@@ -15,7 +15,7 @@ Required Citations: Open STV; Jeffery O'Neill; <a href="http://www.openstv.org">
 Selected Studies: Burlington Vermont 2009 IRV Mayoral Election Analysis; Anthony Gierzynski, Wes Hamilton, & Warren D. Smith; Available at <a href="http://rangevoting.org/Burlington.html"> www.rangevoting.com </a>; 2009
 
 file_name, modification_type, relates_to, title, description, publication_date
-00005-00000001.toc, imbued, , 2006 Burlington Mayoral Election, Obtained from the toi by adding the unranked alternatives at the bottom, 2021-06-22
+00005-00000001.toc, imbued, 00005-00000001.toi, 2006 Burlington Mayoral Election, Obtained from the toi by adding the unranked alternatives at the bottom, 2021-06-22
 00005-00000001.toi, original, , 2006 Burlington Mayoral Election, , 2021-06-22
-00005-00000002.toc, imbued, , 2009 Burlington Mayoral Election, Obtained from the toi by adding the unranked alternatives at the bottom, 2021-06-22
+00005-00000002.toc, imbued, 00005-00000002.toi, 2009 Burlington Mayoral Election, Obtained from the toi by adding the unranked alternatives at the bottom, 2021-06-22
 00005-00000002.toi, original, , 2009 Burlington Mayoral Election, , 2021-06-22

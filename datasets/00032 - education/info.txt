@@ -18,10 +18,10 @@ file_name, modification_type, relates_to, title, description, publication_date
 00032-00000001.soi, original, , Professors: Most Important Aspects of Failure, , 2021-06-22
 00032-00000002.soc, original, , Students: Most Important Aspects of Failure, , 2021-06-22
 00032-00000003.soi, original, , Combined: Most Important Aspects of Failure, , 2021-06-22
-00032-00000004.toc, imbued, , Professors: Most Important Courses, Obtained from the toi by adding the unranked alternatives at the bottom, 2021-06-22
+00032-00000004.toc, imbued, 00032-00000004.toi, Professors: Most Important Courses, Obtained from the toi by adding the unranked alternatives at the bottom, 2021-06-22
 00032-00000004.toi, original, , Professors: Most Important Courses, , 2021-06-22
 00032-00000005.soi, original, , Professors: Least Important Courses, , 2021-06-22
-00032-00000006.toc, imbued, , Professors: Most Important Qualities for Success, Obtained from the toi by adding the unranked alternatives at the bottom, 2021-06-22
+00032-00000006.toc, imbued, 00032-00000006.toi, Professors: Most Important Qualities for Success, Obtained from the toi by adding the unranked alternatives at the bottom, 2021-06-22
 00032-00000006.toi, original, , Professors: Most Important Qualities for Success, , 2021-06-22
 00032-00000007.toc, imbued, , Professors: Most Important Qualities for Success, Obtained from the toi by adding the unranked alternatives at the bottom, 2021-06-22
-00032-00000007.toi, original, , Professors: Most Important Qualities for Success, , 2021-06-22
+00032-00000007.toi, original, 00032-00000007.toi, Professors: Most Important Qualities for Success, , 2021-06-22
