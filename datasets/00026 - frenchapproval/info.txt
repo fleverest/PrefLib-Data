@@ -21,5 +21,5 @@ file_name, modification_type, relates_to, title, description, publication_date
 00026-00000003.toc, original, , Orsay5, , 2021-06-25
 00026-00000004.toc, original, , Orsay6, , 2021-06-25
 00026-00000005.toc, original, , Orsay7, , 2021-06-25
-00026-00000006.dat, original, 00026-00000002.toc, Orsay12, Includes the complete approval/disapproval ballots, 2021-06-25
+00026-00000006.dat, original, 00026-00000006.toc, Orsay12, Includes the complete approval/disapproval ballots, 2021-06-25
 00026-00000006.toc, original, , Orsay12, , 2021-06-25
