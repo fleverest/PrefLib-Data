@@ -1,62 +1,72 @@
-51
-1,Dan Gurney 
-2,Tony Maggs 
-3,Richie Ginther 
-4,Bruce McLaren 
-5,John Surtees 
-6,Carel Godin de Beaufort 
-7,Maurice Trintignant 
-8,Trevor Taylor 
-9,Graham Hill 
-10,Jo Bonnier 
-11,Jackie Lewis 
-12,Roy Salvadori 
-13,Masten Gregory 
-14,Jack Brabham 
-15,Innes Ireland 
-16,Jim Clark 
-17,Jo Siffert 
-18,Willy Mairesse 
-19,Giancarlo Baghetti 
-20,Lorenzo Bandini 
-21,Nino Vaccarella 
-22,Phil Hill 
-23,Ricardo Rodriguez 
-24,Tony Settember 
-25,Nasif Estefano 
-26,Tony Shelly 
-27,Keith Greene 
-28,Gerry Ashmore 
-29,Ian Burgess 
-30,Ernesto Prinoth 
-31,Roberto Lippi 
-32,Jay Chamberlain 
-33,Lucien Bianchi 
-34,John Campbell-Jones 
-35,Wolfgang Seidel 
-36,Ben Pon 
-37,Roger Penske 
-38,Bob Schroeder 
-39,Hap Sharp 
-40,Tim Mayer 
-41,Jim Hall 
-42,Neville Lederle 
-43,John Love 
-44,Bruce Johnstone 
-45,Ernie Pieterse 
-46,Doug Serrurier 
-47,Mike Harris 
-48,Heini Walter 
-49,Heinz Schiller 
-50,Bernard Collomb 
-51,Günther Seiffert 
-9,9,9
-1,9,3,4,18,19,10,2,20,21,6,22,13,1,23,15,12,8,24,7,16,5,25,26,27,28,29,17,30,31,32
-1,9,8,22,19,2,6,10,11,16,23,3,15,13,35,1,4,12,5,14,36
-1,16,5,4,9,14,2,13,8,1,11,24,29,3,6,32,15,22,12,10,35,26,27
-1,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17
-1,9,4,2,14,15,42,3,43,44,45,6,46,16,12,47,5,8
-1,16,9,4,14,1,13,2,15,37,38,39,8,10,3,7,40,5,6,41,12,22
-1,9,5,1,16,4,23,10,3,2,19,29,17,6,48,21,33,11,14,22,27,7,49,20,12,50,8,32,51,35,26
-1,4,22,20,5,10,9,18,14,12,2,1,7,16,15,8,23,6,3,11,13,21,17
-1,16,9,22,23,5,14,6,7,33,17,34,18,8,3,2,4,13,19,1,15
+# FILE NAME: 00010-00000002.soi
+# TITLE: 1962 F1
+# DESCRIPTION: 
+# DATA TYPE: soi
+# MODIFICATION TYPE: original
+# RELATES TO: 
+# RELATED FILES: 00010-00000002.toc
+# PUBLICATION DATE: 2021-06-22
+# MODIFICATION DATE: 2022-09-16
+# NUMBER ALTERNATIVES: 51
+# NUMBER VOTERS: 9
+# NUMBER UNIQUE ORDERS: 9
+# ALTERNATIVE NAME 1: Dan Gurney
+# ALTERNATIVE NAME 2: Tony Maggs
+# ALTERNATIVE NAME 3: Richie Ginther
+# ALTERNATIVE NAME 4: Bruce McLaren
+# ALTERNATIVE NAME 5: John Surtees
+# ALTERNATIVE NAME 6: Carel Godin de Beaufort
+# ALTERNATIVE NAME 7: Maurice Trintignant
+# ALTERNATIVE NAME 8: Trevor Taylor
+# ALTERNATIVE NAME 9: Graham Hill
+# ALTERNATIVE NAME 10: Jo Bonnier
+# ALTERNATIVE NAME 11: Jackie Lewis
+# ALTERNATIVE NAME 12: Roy Salvadori
+# ALTERNATIVE NAME 13: Masten Gregory
+# ALTERNATIVE NAME 14: Jack Brabham
+# ALTERNATIVE NAME 15: Innes Ireland
+# ALTERNATIVE NAME 16: Jim Clark
+# ALTERNATIVE NAME 17: Jo Siffert
+# ALTERNATIVE NAME 18: Willy Mairesse
+# ALTERNATIVE NAME 19: Giancarlo Baghetti
+# ALTERNATIVE NAME 20: Lorenzo Bandini
+# ALTERNATIVE NAME 21: Nino Vaccarella
+# ALTERNATIVE NAME 22: Phil Hill
+# ALTERNATIVE NAME 23: Ricardo Rodriguez
+# ALTERNATIVE NAME 24: Tony Settember
+# ALTERNATIVE NAME 25: Nasif Estefano
+# ALTERNATIVE NAME 26: Tony Shelly
+# ALTERNATIVE NAME 27: Keith Greene
+# ALTERNATIVE NAME 28: Gerry Ashmore
+# ALTERNATIVE NAME 29: Ian Burgess
+# ALTERNATIVE NAME 30: Ernesto Prinoth
+# ALTERNATIVE NAME 31: Roberto Lippi
+# ALTERNATIVE NAME 32: Jay Chamberlain
+# ALTERNATIVE NAME 33: Lucien Bianchi
+# ALTERNATIVE NAME 34: John Campbell-Jones
+# ALTERNATIVE NAME 35: Wolfgang Seidel
+# ALTERNATIVE NAME 36: Ben Pon
+# ALTERNATIVE NAME 37: Roger Penske
+# ALTERNATIVE NAME 38: Bob Schroeder
+# ALTERNATIVE NAME 39: Hap Sharp
+# ALTERNATIVE NAME 40: Tim Mayer
+# ALTERNATIVE NAME 41: Jim Hall
+# ALTERNATIVE NAME 42: Neville Lederle
+# ALTERNATIVE NAME 43: John Love
+# ALTERNATIVE NAME 44: Bruce Johnstone
+# ALTERNATIVE NAME 45: Ernie Pieterse
+# ALTERNATIVE NAME 46: Doug Serrurier
+# ALTERNATIVE NAME 47: Mike Harris
+# ALTERNATIVE NAME 48: Heini Walter
+# ALTERNATIVE NAME 49: Heinz Schiller
+# ALTERNATIVE NAME 50: Bernard Collomb
+# ALTERNATIVE NAME 51: Günther Seiffert
+1: 9,3,4,18,19,10,2,20,21,6,22,13,1,23,15,12,8,24,7,16,5,25,26,27,28,29,17,30,31,32
+1: 9,5,1,16,4,23,10,3,2,19,29,17,6,48,21,33,11,14,22,27,7,49,20,12,50,8,32,51,35,26
+1: 16,5,4,9,14,2,13,8,1,11,24,29,3,6,32,15,22,12,10,35,26,27
+1: 4,22,20,5,10,9,18,14,12,2,1,7,16,15,8,23,6,3,11,13,21,17
+1: 16,9,4,14,1,13,2,15,37,38,39,8,10,3,7,40,5,6,41,12,22
+1: 9,8,22,19,2,6,10,11,16,23,3,15,13,35,1,4,12,5,14,36
+1: 16,9,22,23,5,14,6,7,33,17,34,18,8,3,2,4,13,19,1,15
+1: 1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17
+1: 9,4,2,14,15,42,3,43,44,45,6,46,16,12,47,5,8

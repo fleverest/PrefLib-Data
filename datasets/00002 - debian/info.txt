@@ -10,9 +10,9 @@ Publication Date: 2021-06-22
 
 Description: <p>The Debian Project Leader Elections are held yearly with most of the ballots available <a href="http://www.debian.org/vote/">online.</a></p> <p> We have captured several years of data below including the vote for the Debian logo. Some years there have been only a few candidate and we have omitted these years. The included data sets have between 4 and 9 candidates depending on instance and about 400 individual votes per instance.</p>
 
-Required Citations:
+Required Citations: 
 
-Selected Studies:
+Selected Studies: 
 
 file_name, modification_type, relates_to, title, description, publication_date
 00002-00000001.soi, original, , Debian 2002 Leader, , 2021-06-22
