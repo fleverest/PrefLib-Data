@@ -1,6 +1,6 @@
 import os
 
-from preflibtools.instances.preflibinstance import PreflibInstance
+from preflibtools.instances.preflibinstance import OrdinalInstance
 
 
 IN_DIR = "../datasets/"
@@ -11,9 +11,9 @@ for ds_dir in os.listdir(IN_DIR):
             for file in os.listdir(os.path.join(IN_DIR, ds_dir)):
                 if os.path.splitext(file)[1][1:] in ["soc", "toc", "soi", "toi"]:
                     file_path = os.path.join(IN_DIR, ds_dir, file)
-                    instance = PreflibInstance(file_path)
+                    instance = OrdinalInstance(file_path)
                     if len(set(instance.orders)) < len(instance.orders):
-                        inst = PreflibInstance()
+                        inst = OrdinalInstance()
                         # inst.parse_file(file_path, autocorrect=True)
                         # inst.recompute_cardinality_param()
                         # inst.write(file_path)

@@ -1,5 +1,5 @@
 import os.path
-from scripts.preflibtools.instances.preflibinstance import OrdinalInstance
+from preflibtools.instances.preflibinstance import OrdinalInstance
 
 dataset = "00022 - sl"
 original_type = '.toi'

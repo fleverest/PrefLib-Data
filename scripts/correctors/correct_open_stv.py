@@ -1,6 +1,6 @@
 import os
 
-from preflibtools.instances.preflibinstance import PreflibInstance
+from preflibtools.instances.preflibinstance import OrdinalInstance
 
 
 IN_DIR = "../datasets/"
@@ -11,7 +11,7 @@ for ds_dir in os.listdir(IN_DIR):
             for file in os.listdir(os.path.join(IN_DIR, ds_dir)):
                 if os.path.splitext(file)[1] in [".soc", ".toc", ".soi", ".toi"]:
                     file_path = os.path.join(IN_DIR, ds_dir, file)
-                    instance = PreflibInstance()
+                    instance = OrdinalInstance()
                     instance.parse_file(file_path, autocorrect=True)
 
                     positions_to_remove = []
