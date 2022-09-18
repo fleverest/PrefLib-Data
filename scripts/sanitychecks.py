@@ -57,6 +57,7 @@ with open(os.path.join(LOG_DIR, "log.html"), "w") as log_file:
                         for error in error_list_categories:
                             log_file.write("<p>" + str(error) + "</p>\n")
             elif extention == "wmd":
+                break
                 file_path = os.path.join(IN_DIR, ds_dir, file)
                 instance = MatchingInstance(file_path)
 

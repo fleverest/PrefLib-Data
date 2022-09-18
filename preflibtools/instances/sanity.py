@@ -64,6 +64,10 @@ def orders(instance):
                   len(alternatives), instance.num_alternatives),
               error_list)
 
+    my_assert(0 not in alternatives,
+              "0 appears as an alternative",
+              error_list)
+
     my_assert(instance.data_type == instance.infer_type(),
               "Data type {} is not the same as the one inferred {}".format(instance.data_type, instance.infer_type()),
               error_list)
@@ -143,6 +147,10 @@ def categories(instance):
     my_assert(len(alternatives) <= instance.num_alternatives,
               "More alternatives appear in the preference {} than in the header {}".format(
                   len(alternatives), instance.num_alternatives),
+              error_list)
+
+    my_assert(0 not in alternatives,
+              "0 appears as an alternative",
               error_list)
 
     my_assert(len(set(instance.preferences)) == len(instance.preferences),

@@ -1,5 +1,6 @@
 """ This module describes the main class to deal with PrefLib instances..
 """
+import os.path
 
 from .sampling import *
 
@@ -341,7 +342,7 @@ class OrdinalInstance(PrefLibInstance):
             :type filepath: str
         """
         if len(path.splitext(filepath)[1]) == 0:
-            filepath += str(self.data_type)
+            filepath += "." + str(self.data_type)
         file = open(filepath, "w", encoding="utf-8")
         # Writing metadata in the file header
         self.write_metadata(file)
@@ -407,7 +408,7 @@ class OrdinalInstance(PrefLibInstance):
         """ Loops through the orders of the instance to infer whether the preferences strict and/or complete,.
 
             :return: The data type of the instance.
-            :rtype: str 
+            :rtype: str
         """
         strict = True
         complete = True
@@ -439,7 +440,7 @@ class OrdinalInstance(PrefLibInstance):
         """ Appends a vote map to the instance. That function incorporates the new orders into the instance and
             updates the set of alternatives if needed.
 
-            :param orders: A list of tuples of tuples, each tuple representing a preference order. 
+            :param orders: A list of tuples of tuples, each tuple representing a preference order.
             :type orders: list
         """
         alternatives = set(alt for order in orders for indif_class in order for alt in indif_class)
@@ -465,9 +466,9 @@ class OrdinalInstance(PrefLibInstance):
     def append_vote_map(self, vote_map):
         """ Appends a vote map to the instance. That function incorporates the new orders into the instance and
             updates the set of alternatives if needed.
-            
+
             :param vote_map: A vote map representing preferences. A vote map is a dictionary whose keys represent
-                orders (tuples of tuples of int) that are mapped to the number of voters with the given order as 
+                orders (tuples of tuples of int) that are mapped to the number of voters with the given order as
                 their preferences. We re-map the orders to tuple of tuples to be sure we are dealing with the correct
                 type.
             :type vote_map: dict of (tuple, int)
@@ -545,7 +546,7 @@ class OrdinalInstance(PrefLibInstance):
 
     def populate_mallows_mix(self, num_voters, num_alternatives, num_references):
         """ Populates the instance with a random profile of strict preferences taken from a mixture of Mallows'
-            models for which reference points and dispersion coefficients are independently and identically 
+            models for which reference points and dispersion coefficients are independently and identically
             distributed. Uses :class:`preflibtools.instances.sampling` for sampling.
 
             :param num_voters: Number of orders to sample.
@@ -664,7 +665,7 @@ class CategoricalInstance(PrefLibInstance):
             :type filepath: str
         """
         if len(path.splitext(filepath)[1]) == 0:
-            filepath += str(self.data_type)
+            filepath += "." + str(self.data_type)
         file = open(filepath, "w", encoding="utf-8")
         # Writing metadata in the file header
         self.write_metadata(file)
@@ -847,7 +848,7 @@ class MatchingInstance(PrefLibInstance, WeightedGraph):
         """
 
         if len(path.splitext(filepath)[1]) == 0:
-            filepath += str(self.data_type)
+            filepath += "." + str(self.data_type)
         file = open(filepath, "w", encoding="utf-8")
         # Writing metadata in the file header
         self.write_metadata(file)
@@ -864,3 +865,22 @@ class MatchingInstance(PrefLibInstance, WeightedGraph):
             for (vertex1, vertex2, weight) in out_edges:
                 file.write("{},{},{}\n".format(vertex1, vertex2, weight))
         file.close()
+
+
+def get_parsed_instance(file_path):
+    """ Infers from the extension of the file given as input the correct instance to use. Parses the file and return
+        the instance.
+
+        :param file_path: The path to the file to be parsed.
+        :type file_path: str
+
+        :return: The instance with the file already parsed.
+        :rtype: :class:`preflibtools.instances.preflibinstance.PrefLibInstance`
+    """
+    extension = os.path.splitext(file_path)[1]
+    if extension in ["soc", "soi", "toc", "toi"]:
+        return OrdinalInstance(file_path)
+    elif extension == "cat":
+        return CategoricalInstance(file_path)
+    elif extension == "wmd":
+        return MatchingInstance(file_path)
