@@ -11,25 +11,25 @@ def basic_numbers(instance):
         instance.
 
         :param instance: The instance to draw.
-        :type instance: :class:`preflibtools.instances.preflibinstance.PreflibInstance`
+        :type instance: :class:`preflibtools.instances.preflibinstance.OrdinalInstance`
     """
 
     error_list = []
 
-    my_assert(len(instance.orders) == len(instance.order_multiplicity),
+    my_assert(len(instance.orders) == len(instance.multiplicity),
               "len(orders) {} differs from len(order_multiplicity) {}".format(
-                  len(instance.orders), len(instance.order_multiplicity)),
+                  len(instance.orders), len(instance.multiplicity)),
               error_list)
 
     if instance.data_type in ["soc", "toc", "toi", "soi"]:
-        my_assert(instance.num_voters == sum(multiplicity for multiplicity in instance.order_multiplicity.values()),
+        my_assert(instance.num_voters == sum(multiplicity for multiplicity in instance.multiplicity.values()),
                   "Number of voters {} and number of orders seem different {}".format(
-                      instance.num_voters, sum(multiplicity for multiplicity in instance.order_multiplicity.values())),
+                      instance.num_voters, sum(multiplicity for multiplicity in instance.multiplicity.values())),
                   error_list)
 
-    my_assert(instance.num_unique_order == len(instance.orders),
+    my_assert(instance.num_unique_orders == len(instance.orders),
               "Number of unique order {} differs from len(orders) {}".format(
-                  instance.num_unique_order, len(instance.orders)),
+                  instance.num_unique_orders, len(instance.orders)),
               error_list)
 
     alternatives = set(alt for order in instance.orders for indif_class in order for alt in indif_class)
@@ -55,7 +55,7 @@ def orders(instance):
     """ Checks that the orders are consistent.
 
         :param instance: The instance to draw.
-        :type instance: :class:`preflibtools.instances.preflibinstance.PreflibInstance`
+        :type instance: :class:`preflibtools.instances.preflibinstance.OrdinalInstance`
     """
 
     error_list = []
@@ -93,13 +93,13 @@ def data_type(instance):
     """ Checks that the data type of the instance is consistent with the orders.
 
         :param instance: The instance to draw.
-        :type instance: :class:`preflibtools.instances.preflibinstance.PreflibInstance`
+        :type instance: :class:`preflibtools.instances.preflibinstance.OrdinalInstance`
     """
 
     error_list = []
 
-    my_assert(instance.data_type == instance.infer_type_orders(),
-              "Data type {} should actually be {}".format(instance.data_type, instance.infer_type_orders()),
+    my_assert(instance.data_type == instance.infer_type(),
+              "Data type {} should actually be {}".format(instance.data_type, instance.infer_type()),
               error_list)
 
     return error_list

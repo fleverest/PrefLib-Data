@@ -7,7 +7,7 @@ def order_to_pwg(instance):
     """ Takes as input an instances and returns a string describing a pairwise graph.
 
         :param instance: The instance to convert.
-        :type instance: :class:`preflibtools.instances.preflibinstance.PreflibInstance`
+        :type instance: :class:`preflibtools.instances.preflibinstance.OrdinalInstance`
     """
     header = str(instance.num_alternatives) + "\n"
     for alt, alt_name in instance.alternatives_name.items():
