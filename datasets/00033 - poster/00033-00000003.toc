@@ -3,7 +3,7 @@
 # DESCRIPTION: The ballots of complete approval or disapproval were removed.
 # DATA TYPE: toc
 # MODIFICATION TYPE: induced
-# RELATES TO: 00033-00000003.dat
+# RELATES TO: 00033-00000003.cat
 # RELATED FILES:
 # PUBLICATION DATE: 2021-06-22
 # MODIFICATION DATE: 2022-09-16

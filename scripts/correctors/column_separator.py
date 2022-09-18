@@ -1,5 +1,5 @@
-dataset = "00037 - aamas"
-datafile = "00037-00000002.cat"
+dataset = "00033 - poster"
+datafile = "00033-00000003.cat"
 
 new_str = ""
 with open("../../datasets/" + dataset + "/" + datafile, "r") as file:
