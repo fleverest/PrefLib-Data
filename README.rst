@@ -60,7 +60,7 @@ Here is an example of the file, taken from the irish dataset.
 
 Let us describe in more details the metadata:
 
-* **Name**: the name of the dataset
+* **Name**: the name of the dataset.
 * **Abbreviation**: the abbreviation of the dataset, it should be a slug string, i.e., it can only contains letters, numbers, underscores or hyphens.
 * **Tags**: a list of tags, comma-separated, indicating the tags that apply to the dataset. See `the PrefLib format page <https:preflib.org/format#structure>`_ for more information about the tags.
 * **Series Number**: is the series number of the dataset, it is a 5 digit identifier.
@@ -82,7 +82,8 @@ in the following.
 Among all those headers, :code:`relates_to` and :code:`description` can be empty. All the others are required.
 
 Note that if a comma should appear in a field (e.g., in :code:`description`), the value of the field should be put into
-single quotes: :code:`'this is my description, with a comma.'`. This also mean that the single quote should not be used.
+single quotes: :code:`'this is my description, with a comma.'`. This also mean that the single quote should not be used
+for any other usage.
 
 Data Files
 ----------
