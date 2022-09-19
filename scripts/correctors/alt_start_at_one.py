@@ -3,7 +3,7 @@ import os.path
 from preflibtools.instances.preflibinstance import OrdinalInstance, CategoricalInstance
 
 
-dataset = "00039 - csconf"
+dataset = "00036 - kidney"
 
 for file in os.listdir(os.path.join("..", "..", "datasets", dataset)):
     print(file)
@@ -50,3 +50,16 @@ for file in os.listdir(os.path.join("..", "..", "datasets", dataset)):
                 new_instance.preferences.append(new_pref)
                 new_instance.multiplicity[new_pref] = instance.multiplicity[pref]
             new_instance.write(os.path.join("..", "..", "datasets", dataset, file))
+
+    elif extension == "wmd":
+        new_str = ""
+        with open(os.path.join("..", "..", "datasets", dataset, file)) as f:
+            for line in f.readlines():
+                if line.startswith('#'):
+                    new_str += line
+                else:
+                    split = line.split(',')
+                    new_str += "{},{},{}".format(int(split[0]) + 1, int(split[1]) + 1, split[2])
+        print(new_str)
+        with open(os.path.join("..", "..", "datasets", dataset, file), "w") as f:
+            f.write(new_str)
