@@ -85,8 +85,11 @@ Data Files
 
 The most important content of a dataset is the data files it contains. We do not detail the format of those files  here,
 but rather refer the reader to `the PrefLib format page <https:preflib.org/format#format>`_ where all the details are
-presented. In the following, we provide additional specifications about the data files.
+presented. In the following, we provide additional specifications about the data files. Please follow them when
+formatting data into the PrefLib format.
 
-
-
-
+* Metadata lines should all be at the start of the files.
+* There shoudl not be line break between the metadata and the preferences sectino of a data file.
+* Alternative numbering should start at 1 and not at 0.
+* For the data types allowing for multiplicity, the same preference cannot appear twice, the multiplicity is there for that.
+* No two alternatives can have the same name.
