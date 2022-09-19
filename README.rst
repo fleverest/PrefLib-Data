@@ -3,13 +3,16 @@ PrefLib-Data
 ============
 
 This repository contains the data that is available at `PrefLib.org <https://preflib.org/>`_, together with some scripts
-we are using to maintain the website.
+we are using to maintain the data.
 
 The most important folder is :code:`datasets` that contains all the datasets. A dataset is represented as a directory
 named :code:`num - abb` where :code:`num` is the series number of the dataset, and :code:`abb` its abbreviation. Inside
 a datasets, you will find all the data files and the :code:`info.txt` file. This folder can be zipped and directly
 imported in PrefLib. See the `PrefLib-Django <https://github.com/PrefLib/PrefLib-Django>`_ repository for more
 details about that.
+
+The format for the files changed in September 2022. Since this can cause problems for application developed prior to
+that date, we still provide the old files in the folder :code:`datasets_old_format`.
 
 Note that we use git lfs for the large data file (.dat extension). Check the `git lfs documentation
 <https://git-lfs.github.com>`_ for more details.
@@ -23,13 +26,13 @@ specifications that all these files should follow.
 Dataset Information File
 ------------------------
 
-Every that must include an :code:`info.txt` file. It contains two sections. The first section presents a set of metadata
-about the dataset, encoded in the format :code:`MetadataName: Value`. The second session describes the data files of the
-dataset. Its format follows that of a csv file, with comma separator.
+Every dataset must include an :code:`info.txt` file. It contains two sections. The first section presents a set of
+metadata about the dataset, encoded in the format :code:`MetadataName: Value`. The second session describes the data
+files of the dataset. Its format follows that of a csv file, with comma separator.
 
 Here is an example of the file, taken from the irish dataset.
 
-.. code-block::
+.. code-block:: console
     Name: Irish Election Data
 
     Abbreviation: irish
