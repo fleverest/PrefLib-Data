@@ -32,7 +32,8 @@ files of the dataset. Its format follows that of a csv file, with comma separato
 
 Here is an example of the file, taken from the irish dataset.
 
-.. code-block:: console
+.. code-block::
+
     Name: Irish Election Data
 
     Abbreviation: irish
