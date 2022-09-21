@@ -17,8 +17,8 @@ Selected Studies:
 file_name, modification_type, relates_to, title, description, publication_date
 00035-00000001.csv, original, , Ranking of a respondent across the data files, , 2022-09-09
 00035-00000002.soc, original, , Overall preference, , 2022-09-09
-00035-00000003.soc, original, , 'Juice, bacon and eggs, beverage', , 2022-09-09
-00035-00000004.soc, original, , 'Juice, cold cereal, beverage', , 2022-09-09
-00035-00000005.soc, original, , 'Juice, pancakes, sausage, beverage', , 2022-09-09
-00035-00000006.soc, original, , 'Breakfast, with beverage only', , 2022-09-09
-00035-00000007.soc, original, , 'At snack time, with beverage only', , 2022-09-09
+00035-00000003.soc, original, , """Juice, bacon and eggs, beverage""", , 2022-09-09
+00035-00000004.soc, original, , """Juice, cold cereal, beverage""", , 2022-09-09
+00035-00000005.soc, original, , """Juice, pancakes, sausage, beverage""", , 2022-09-09
+00035-00000006.soc, original, , """Breakfast, with beverage only""", , 2022-09-09
+00035-00000007.soc, original, , """At snack time, with beverage only""", , 2022-09-09

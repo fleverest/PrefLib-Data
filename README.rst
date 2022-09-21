@@ -82,8 +82,8 @@ in the following.
 Among all those headers, :code:`relates_to` and :code:`description` can be empty. All the others are required.
 
 Note that if a comma should appear in a field (e.g., in :code:`description`), the value of the field should be put into
-single quotes: :code:`'this is my description, with a comma.'`. This also mean that the single quote should not be used
-for any other usage.
+triple double quotes: :code:`"""this is my description, with a comma."""`. This also mean that triple double quotes
+should not be used for any other usage.
 
 Data Files
 ----------
