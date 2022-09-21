@@ -12,7 +12,7 @@ Description: <p>The Dublin North, West, and Meath data sets contain a complete r
 
 Required Citations: 
 
-Selected Studies: Budgeted Social Choice: From Consensus to Personalized Decision Making; Tyler Lu and Craig Boutilier; Proceedings of IJCAI; 2011
+Selected Studies:
 
 file_name, modification_type, relates_to, title, description, publication_date
 00001-00000001.soi, original, , 2002 Dublin North, , 2021-06-22

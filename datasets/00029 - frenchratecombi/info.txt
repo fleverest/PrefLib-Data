@@ -12,7 +12,7 @@ Description: <p> This analog dataset to the 2002 French Presidential Election Da
 
 Required Citations: 
 
-Selected Studies: Vote par assentiment pendant la presidentielle de 2002: analyse d’une experience;  Jean-Francois Laslier and Karine Van der Straeten; Revue Française de Science Politique 54: 99-130; 2004
+Selected Studies: Jean-Francois Laslier and Karine Van der Straeten. <em>Vote par assentiment pendant la presidentielle de 2002: analyse d'une experience</em>. Revue Francaise de Science Politique 54 : 99-130, 2004.
 
 file_name, modification_type, relates_to, title, description, publication_date
 00029-00000001.dat, original, , Etudes Poltiques, , 2021-06-25

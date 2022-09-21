@@ -12,7 +12,7 @@ Description: <p>The <a href="http://rangevoting.org/LabourUK2010.html">2010 UK L
 
 Required Citations: 
 
-Selected Studies: The Election, by Instant Runoff Voting, of UK Labour Party Leader in late-September 2010; Jim Riley, Ivan Ryan, Warren D. Smith; Available at <a href="http://rangevoting.org/LabourUK2010.html">www.rangevoting.com</a>; 2010
+Selected Studies: Jim Riley, Ivan Ryan and Warren D. Smith. <em>The Election, by Instant Runoff Voting, of UK Labour Party Leader in late-September 2010</em>. Available at <a href="http://rangevoting.org/LabourUK2010.html">www.rangevoting.com</a>, 2010.
 
 file_name, modification_type, relates_to, title, description, publication_date
 00030-00000001.soi, original, , 2010 UK Labor Leadership, , 2021-06-22
