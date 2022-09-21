@@ -6,7 +6,7 @@ Tags: Combinatorial
 
 Series Number: 00013
 
-Publication Date: 2021-06-25
+Publication Date: 2013-08-17
 
 Description: <p>This dataset contains the Facebook Social Graph and full ratings of 16 restaurants and 23 pubs by 93 users.</p><p>You can find anonymous versions of the social network and the items ratings. It includes three files:</p> <ul><li>links.csv - The is an edge list that contains the Facebook social friendship ties of all the participants. These links are undirected.</li><li>pubs.csv - The file contains the list of participants and their ratings for 23 Pubs.</li><li> rest.csv - The file contains the list of participants and their ratings for 16 Restaurants.</li></ul> <p>Each line in the rating files (pubs.csv and rest.csv) represents a participant with the structure: <b>userid,X1,...,Xn</b>. The userid in these files corresponds with the ids in the links.csv file.</p><p> The data on this page has been donated by <a href="https://www.ariel.ac.il/wp/lihi-dery/">Lihi Dery</a>.</p>
 
@@ -15,6 +15,6 @@ Required Citations: Ofrit Lesser, Lihi Naamani-Dery, Meir Kalech, and Yuval Elov
 Selected Studies: 
 
 file_name, modification_type, relates_to, title, description, publication_date
-00013-00000001.csv, original, , links, , 2021-06-25
-00013-00000002.csv, original, , pubs, , 2021-06-25
-00013-00000003.csv, original, , rest, , 2021-06-25
+00013-00000001.csv, original, , links, , 2013-08-17
+00013-00000002.csv, original, , pubs, , 2013-08-17
+00013-00000003.csv, original, , rest, , 2013-08-17
