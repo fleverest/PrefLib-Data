@@ -2,7 +2,7 @@ Name: San Francisco Election Data
 
 Abbreviation: sf
 
-Tags: Election
+Tags: Election,Politics,STV
 
 Series Number: 00021
 

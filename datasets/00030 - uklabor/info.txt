@@ -2,7 +2,7 @@ Name: UK Labor Party Leadership Vote
 
 Abbreviation: uklabor
 
-Tags: Election
+Tags: Election,Politics
 
 Series Number: 00030
 

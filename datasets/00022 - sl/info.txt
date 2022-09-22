@@ -2,7 +2,7 @@ Name: San Leandro Election Data
 
 Abbreviation: sl
 
-Tags: Election
+Tags: Election,Politics,STV
 
 Series Number: 00022
 

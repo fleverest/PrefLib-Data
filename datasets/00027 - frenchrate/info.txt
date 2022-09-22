@@ -2,7 +2,7 @@ Name: Proto French Election
 
 Abbreviation: frenchrate
 
-Tags: Election
+Tags: Election,Politics
 
 Series Number: 00027
 

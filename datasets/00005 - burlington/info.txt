@@ -2,7 +2,7 @@ Name: Burlington Election Data
 
 Abbreviation: burlington
 
-Tags: Election
+Tags: Election,Politics,STV
 
 Series Number: 00005
 

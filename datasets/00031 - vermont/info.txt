@@ -2,7 +2,7 @@ Name: Vermont District Races
 
 Abbreviation: vermont
 
-Tags: Election
+Tags: Election,Politics
 
 Series Number: 00031
 

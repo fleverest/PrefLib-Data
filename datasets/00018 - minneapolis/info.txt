@@ -2,7 +2,7 @@ Name: Minneapolis Election Data
 
 Abbreviation: minneapolis
 
-Tags: Election
+Tags: Election,Politics,STV
 
 Series Number: 00018
 

@@ -2,7 +2,7 @@ Name: 2002 French Presidental Election
 
 Abbreviation: frenchapproval
 
-Tags: Election
+Tags: Election,Politics
 
 Series Number: 00026
 

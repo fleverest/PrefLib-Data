@@ -2,7 +2,7 @@ Name: Irish Election Data
 
 Abbreviation: irish
 
-Tags: Election
+Tags: Election,Politics,STV
 
 Series Number: 00001
 

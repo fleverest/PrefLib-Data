@@ -1,6 +1,6 @@
 Name: Mechanical Turk Puzzle
 
-Abbreviation: puzzle
+Abbreviation: puzzle,MTurk
 
 Tags: Election
 

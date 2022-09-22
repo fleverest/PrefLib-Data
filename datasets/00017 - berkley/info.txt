@@ -2,7 +2,7 @@ Name: Berkley Election Data
 
 Abbreviation: berkley
 
-Tags: Election
+Tags: Election,Politics,STV
 
 Series Number: 00017
 

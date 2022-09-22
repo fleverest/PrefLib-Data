@@ -2,7 +2,7 @@ Name: Oakland Election Data
 
 Abbreviation: oakland
 
-Tags: Election
+Tags: Election,Politics,STV
 
 Series Number: 00019
 

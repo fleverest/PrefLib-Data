@@ -2,7 +2,7 @@ Name: Aspen Election Data
 
 Abbreviation: aspen
 
-Tags: Election
+Tags: Election,Politics,STV
 
 Series Number: 00016
 

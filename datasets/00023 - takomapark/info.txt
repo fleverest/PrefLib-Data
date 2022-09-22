@@ -2,7 +2,7 @@ Name: Takoma Park Election Data
 
 Abbreviation: takomapark
 
-Tags: Election
+Tags: Election,Politics,STV
 
 Series Number: 00023
 

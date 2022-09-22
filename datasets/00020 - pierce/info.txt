@@ -1,6 +1,6 @@
 Name: Pierce Election Data
 
-Abbreviation: pierce
+Abbreviation: pierce,Politics,STV
 
 Tags: Election
 

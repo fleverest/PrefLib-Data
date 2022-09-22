@@ -2,7 +2,7 @@ Name: Mechanical Turk Dots
 
 Abbreviation: dots
 
-Tags: Election
+Tags: Election,MTurk
 
 Series Number: 00024
 

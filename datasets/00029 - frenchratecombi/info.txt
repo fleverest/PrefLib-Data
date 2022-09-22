@@ -2,7 +2,7 @@ Name: Proto French Election Ratings - Rating
 
 Abbreviation: frenchratecombi
 
-Tags: Combinatorial
+Tags: Combinatorial,Politics
 
 Series Number: 00029
 

@@ -2,7 +2,7 @@ Name: F1 and Skiing
 
 Abbreviation: f1
 
-Tags: Election
+Tags: Election,Sport
 
 Series Number: 00010
 

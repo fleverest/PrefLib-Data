@@ -2,7 +2,7 @@ Name: Glasgow City Council
 
 Abbreviation: glasgow
 
-Tags: Election
+Tags: Election,Politics,STV
 
 Series Number: 00008
 

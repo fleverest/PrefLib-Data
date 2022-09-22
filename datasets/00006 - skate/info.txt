@@ -2,7 +2,7 @@ Name: Skate Data
 
 Abbreviation: skate
 
-Tags: Election
+Tags: Election,Sport
 
 Series Number: 00006
 
