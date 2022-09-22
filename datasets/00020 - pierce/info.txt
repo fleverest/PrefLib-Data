@@ -1,8 +1,8 @@
 Name: Pierce Election Data
 
-Abbreviation: pierce,Politics,STV
+Abbreviation: pierce
 
-Tags: Election
+Tags: Election,Politics,STV
 
 Series Number: 00020
 

@@ -1,8 +1,8 @@
 Name: Mechanical Turk Puzzle
 
-Abbreviation: puzzle,MTurk
+Abbreviation: puzzle
 
-Tags: Election
+Tags: Election,MTurk
 
 Series Number: 00025
 
