@@ -139,8 +139,8 @@ def convert_new_format(in_folder, out_folder):
             file_index += 1
 
         # Writing the info file, the file section is purposefully omitted.
-        with open(os.path.join(new_ds_folder, "info.txt"), "w") as info_file:
-            with open(os.path.join(in_folder, ds_folder, "description")) as descr_file:
+        with open(os.path.join(new_ds_folder, "info.txt"), "w", encoding="utf-8") as info_file:
+            with open(os.path.join(in_folder, ds_folder, "description"), encoding="utf-8") as descr_file:
                 descr_lines = descr_file.readlines()
                 descr = descr_lines[1:-2]
                 descr = ' '.join(["<p>" + line.strip() + "</p>" for line in descr if len(line) > 3])
@@ -148,12 +148,12 @@ def convert_new_format(in_folder, out_folder):
                 info_file.write("Name: {}\n\n".format(abb_dict[ds_folder]))
                 info_file.write("Abbreviation: {}\n\n".format(ds_folder))
                 info_file.write("Tags: Election\n\n")
-                info_file.write("Series Number: {}\n\n".format(num_dict[ds_folder]))
+                info_file.write("Series Number: 000{}\n\n".format(num_dict[ds_folder]))
                 info_file.write("Publication Date: 2022-09-25\n\n")
-                info_file.write("Description:\n\n".format(descr))
+                info_file.write("Description: {}\n\n".format(descr))
                 info_file.write("Required Citations: Niclas Boehmer and Nathan Schaar. <em>Collecting, Classifying, "
                                 "Analyzing, and Using Real-World Elections</em>. Arxiv.org/abs/2204.03589, 2022.\n\n")
-                info_file.write("Selected Studies: {}\n\n")
+                info_file.write("Selected Studies:\n\n")
                 info_file.write("file_name, modification_type, relates_to, title, description, publication_date\n")
                 for instance in instances:
                     info_file.write("{}, {}, {}, {}, {}, {}\n".format(instance.file_name, instance.modification_type,
@@ -193,13 +193,13 @@ def sanity_checks(in_folder, log_dir):
 niclas_in = os.path.join("..", "..", "Niclas", "In")
 
 new_in_folder_name = "In_No_Duplicates"
-# count_duplicates(in_folder)
 # remove_duplicated_files(niclas_in, new_in_folder_name)
+# count_duplicates(niclas_in)
 new_in_folder = os.path.join(os.path.dirname(niclas_in), new_in_folder_name)
 
 
 niclas_out = os.path.join("..", "..", "Niclas", "Out")
-# convert_new_format(new_in_folder, niclas_out)
+convert_new_format(new_in_folder, niclas_out)
 
 
-sanity_checks(niclas_out, os.path.join("..", "..", "log"))
+# sanity_checks(niclas_out, os.path.join("..", "..", "log"))
