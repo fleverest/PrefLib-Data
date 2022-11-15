@@ -4,7 +4,7 @@ import os
 IN_DIR = "../datasets/"
 OUT_DIR = "../zip/"
 
-to_zip = ['00010 - ski',]
+to_zip = ['00057 - parliaments',]
 
 try:
     os.makedirs(OUT_DIR)
