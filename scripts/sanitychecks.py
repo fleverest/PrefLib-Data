@@ -6,10 +6,7 @@ import os
 IN_DIR = "../datasets/"
 LOG_DIR = "../log/"
 
-try:
-    os.makedirs(LOG_DIR)
-except FileExistsError as e:
-    pass
+os.makedirs(LOG_DIR, exist_ok=True)
 
 with open(os.path.join(LOG_DIR, "log.html"), "w") as log_file:
     for ds_dir in os.listdir(IN_DIR):
