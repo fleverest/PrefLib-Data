@@ -1,12 +1,13 @@
 # FILE NAME: 00057-00000004.cat
 # TITLE: Austrian legislative election 2002
-# DESCRIPTION: apportionment instance with plurality ballots, 183 seats, official result: [69, 18, 79, 17, 0, 0, 0, 0, 0]
+# DESCRIPTION: Apportionment instance with plurality ballots for 183 seats
 # DATA TYPE: cat
 # MODIFICATION TYPE: original
 # RELATES TO: 
 # RELATED FILES: 
 # PUBLICATION DATE: 2022-11-15
 # MODIFICATION DATE: 2022-11-15
+# OFFICIAL RESULTS: {SPÖ: 69, FPÖ: 18, ÖVP: 79, GRÜNE: 17}
 # NUMBER ALTERNATIVES: 9
 # NUMBER VOTERS: 4899645
 # NUMBER UNIQUE PREFERENCES: 9

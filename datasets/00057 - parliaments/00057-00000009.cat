@@ -1,12 +1,13 @@
 # FILE NAME: 00057-00000009.cat
 # TITLE: Austrian legislative election 2019
-# DESCRIPTION: apportionment instance with plurality ballots, 183 seats, official result: [71, 40, 31, 15, 0, 26, 0, 0, 0, 0, 0, 0, 0]
+# DESCRIPTION: Apportionment instance with plurality ballots for 183 seats
 # DATA TYPE: cat
 # MODIFICATION TYPE: original
 # RELATES TO: 
 # RELATED FILES: 
 # PUBLICATION DATE: 2022-11-15
 # MODIFICATION DATE: 2022-11-15
+# OFFICIAL RESULTS: {ÖVP: 71, SPÖ: 40, FPÖ: 31, NEOS: 15, GRÜNE: 26}
 # NUMBER ALTERNATIVES: 13
 # NUMBER VOTERS: 4777246
 # NUMBER UNIQUE PREFERENCES: 13

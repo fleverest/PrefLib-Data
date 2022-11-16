@@ -1,12 +1,13 @@
 # FILE NAME: 00057-00000001.cat
 # TITLE: Austrian legislative election 1994
-# DESCRIPTION: apportionment instance with plurality ballots, 183 seats, official result: [65, 52, 42, 13, 11, 0, 0, 0, 0, 0, 0, 0, 0]
+# DESCRIPTION: Apportionment instance with plurality ballots for 183 seats
 # DATA TYPE: cat
 # MODIFICATION TYPE: original
 # RELATES TO: 
 # RELATED FILES: 
 # PUBLICATION DATE: 2022-11-15
 # MODIFICATION DATE: 2022-11-15
+# OFFICIAL RESULTS: {SPÖ: 65, ÖVP: 52, FPÖ: 42, GRÜNE: 13, LIF: 11}
 # NUMBER ALTERNATIVES: 13
 # NUMBER VOTERS: 4633114
 # NUMBER UNIQUE PREFERENCES: 13

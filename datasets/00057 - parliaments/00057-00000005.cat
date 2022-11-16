@@ -1,12 +1,13 @@
 # FILE NAME: 00057-00000005.cat
 # TITLE: Austrian legislative election 2006
-# DESCRIPTION: apportionment instance with plurality ballots, 183 seats, official result: [66, 68, 21, 21, 7, 0, 0, 0, 0, 0, 0, 0]
+# DESCRIPTION: Apportionment instance with plurality ballots for 183 seats
 # DATA TYPE: cat
 # MODIFICATION TYPE: original
 # RELATES TO: 
 # RELATED FILES: 
 # PUBLICATION DATE: 2022-11-15
 # MODIFICATION DATE: 2022-11-15
+# OFFICIAL RESULTS: {ÖVP: 66, SPÖ: 68, FPÖ: 21, GRÜNE: 21, BZÖ: 7}
 # NUMBER ALTERNATIVES: 12
 # NUMBER VOTERS: 4708281
 # NUMBER UNIQUE PREFERENCES: 12

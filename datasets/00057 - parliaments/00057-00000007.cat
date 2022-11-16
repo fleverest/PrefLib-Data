@@ -1,12 +1,13 @@
 # FILE NAME: 00057-00000007.cat
 # TITLE: Austrian legislative election 2013
-# DESCRIPTION: apportionment instance with plurality ballots, 183 seats, official result: [52, 47, 40, 0, 24, 11, 9, 0, 0, 0, 0, 0, 0, 0]
+# DESCRIPTION: Apportionment instance with plurality ballots for 183 seats
 # DATA TYPE: cat
 # MODIFICATION TYPE: original
 # RELATES TO: 
 # RELATED FILES: 
 # PUBLICATION DATE: 2022-11-15
 # MODIFICATION DATE: 2022-11-15
+# OFFICIAL RESULTS: {SPÖ: 52, ÖVP: 47, FPÖ: 40, GRÜNE: 24, FRANK: 11, NEOS: 9}
 # NUMBER ALTERNATIVES: 14
 # NUMBER VOTERS: 4692907
 # NUMBER UNIQUE PREFERENCES: 14

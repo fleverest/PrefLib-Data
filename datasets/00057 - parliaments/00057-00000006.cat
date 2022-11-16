@@ -1,12 +1,13 @@
 # FILE NAME: 00057-00000006.cat
 # TITLE: Austrian legislative election 2008
-# DESCRIPTION: apportionment instance with plurality ballots, 183 seats, official result: [57, 51, 20, 34, 21, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+# DESCRIPTION: Apportionment instance with plurality ballots for 183 seats
 # DATA TYPE: cat
 # MODIFICATION TYPE: original
 # RELATES TO: 
 # RELATED FILES: 
 # PUBLICATION DATE: 2022-11-15
 # MODIFICATION DATE: 2022-11-15
+# OFFICIAL RESULTS: {SPÖ: 57, ÖVP: 51, GRÜNE: 20, FPÖ: 34, BZÖ: 21}
 # NUMBER ALTERNATIVES: 15
 # NUMBER VOTERS: 4887309
 # NUMBER UNIQUE PREFERENCES: 15
