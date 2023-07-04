@@ -15,5 +15,7 @@ Required Citations:
 Selected Studies: 
 
 file_name, modification_type, relates_to, title, description, publication_date
-00037-00000001.toi, original, , AAMAS 2015, , 2017-04-13
-00037-00000002.toi, original, , AAMAS 2016, , 2017-04-13
+00037-00000001.cat, original, , AAMAS 2015, , 2017-04-13
+00037-00000002.cat, original, , AAMAS 2016, , 2017-04-13
+00037-00000003.csv, original, 00037-00000003.cat, AAMAS 2021 with roles, , 2023-07-04
+00037-00000003.cat, original, , AAMAS 2021, , 2023-07-04
